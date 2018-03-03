@@ -1,0 +1,144 @@
+********************************************************************************
+product = WebSphere Application Server 16.0.0.4 (wlp-1.0.15.cl160420161113-0206)
+wlp.install.dir = /home/isaac/IdeaProjects/Blackjack/websphere/wlp/
+java.home = /home/isaac/DevEnv/Java/jdk1.8.0_161/jre
+java.version = 1.8.0_161
+java.runtime = Java(TM) SE Runtime Environment (1.8.0_161-b12)
+os = Linux (4.14.0-deepin2-amd64; amd64) (en_US)
+process = 4724@Isaac-PC
+********************************************************************************
+[3/3/18 17:09:06:508 CST] 00000001 com.ibm.ws.kernel.launch.internal.FrameworkManager           A CWWKE0001I: The server WebSphereDefaultServer has been launched.
+[3/3/18 17:09:06:543 CST] 00000001 com.ibm.ws.kernel.launch.internal.FrameworkManager           A CWWKE0100I: This product is licensed for development, and limited production use. The full license terms can be viewed here: https://public.dhe.ibm.com/ibmdl/export/pub/software/websphere/wasdev/license/base_ilan/ilan/16.0.0.4/lafiles/en.html
+[3/3/18 17:09:07:989 CST] 00000001 com.ibm.ws.kernel.launch.internal.FrameworkManager           I CWWKE0002I: The kernel started after 2.027 seconds
+[3/3/18 17:09:08:040 CST] 00000018 com.ibm.ws.kernel.feature.internal.FeatureManager            I CWWKF0007I: Feature update started.
+[3/3/18 17:09:08:997 CST] 00000011 com.ibm.ws.app.manager.internal.monitor.DropinMonitor        A CWWKZ0058I: Monitoring dropins for applications. 
+[3/3/18 17:09:09:001 CST] 0000001c com.ibm.ws.tcpchannel.internal.TCPChannel                    I CWWKO0219I: TCP Channel defaultHttpEndpoint has been started and is now listening for requests on host localhost  (IPv4: 127.0.0.1) port 9080.
+[3/3/18 17:09:09:474 CST] 00000025 com.ibm.ws.app.manager.AppMessageHelper                      I CWWKZ0018I: Starting application SpringTest.
+[3/3/18 17:09:09:474 CST] 00000024 com.ibm.ws.app.manager.AppMessageHelper                      I CWWKZ0018I: Starting application Blackjack_war_exploded.
+[3/3/18 17:09:09:680 CST] 00000025 com.ibm.ws.session.WASSessionCore                            I SESN8501I: The session manager did not find a persistent storage location; HttpSession objects will be stored in the local application server's memory.
+[3/3/18 17:09:09:700 CST] 00000025 com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: Loading Web Module: SpringTest.
+[3/3/18 17:09:09:702 CST] 00000025 com.ibm.ws.webcontainer                                      I SRVE0250I: Web Module SpringTest has been bound to default_host.
+[3/3/18 17:09:09:703 CST] 00000025 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0016I: Web application available (default_host): http://localhost:9080/SpringTest/
+[3/3/18 17:09:09:706 CST] 00000025 com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0001I: Application SpringTest started in 0.232 seconds.
+[3/3/18 17:09:10:129 CST] 0000002d com.ibm.ws.config.xml.internal.ConfigRefresher               A CWWKG0016I: Starting server configuration update.
+[3/3/18 17:09:10:133 CST] 0000002d com.ibm.ws.config.xml.internal.ConfigRefresher               A CWWKG0018I: The server configuration was not updated. No functional changes were detected.
+[3/3/18 17:09:10:308 CST] 0000002c com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: A configuration file for a web server plugin was automatically generated for this server at /home/isaac/IdeaProjects/Blackjack/websphere/wlp/usr/servers/WebSphereDefaultServer/logs/state/plugin-cfg.xml.
+[3/3/18 17:09:10:956 CST] 00000024 com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: Loading Web Module: Blackjack.
+[3/3/18 17:09:10:956 CST] 00000024 com.ibm.ws.webcontainer                                      I SRVE0250I: Web Module Blackjack has been bound to default_host.
+[3/3/18 17:09:10:956 CST] 00000024 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0016I: Web application available (default_host): http://localhost:9080/
+[3/3/18 17:09:10:956 CST] 00000024 com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0001I: Application Blackjack_war_exploded started in 1.482 seconds.
+[3/3/18 17:09:10:964 CST] 00000018 com.ibm.ws.kernel.feature.internal.FeatureManager            A CWWKF0012I: The server installed the following features: [jsp-2.3, servlet-3.1, localConnector-1.0, el-3.0].
+[3/3/18 17:09:10:964 CST] 00000018 com.ibm.ws.kernel.feature.internal.FeatureManager            I CWWKF0008I: Feature update completed in 2.987 seconds.
+[3/3/18 17:09:10:964 CST] 00000018 com.ibm.ws.kernel.feature.internal.FeatureManager            A CWWKF0011I: The server WebSphereDefaultServer is ready to run a smarter planet.
+[3/3/18 17:09:11:003 CST] 00000034 com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: A configuration file for a web server plugin was automatically generated for this server at /home/isaac/IdeaProjects/Blackjack/websphere/wlp/usr/servers/WebSphereDefaultServer/logs/state/plugin-cfg.xml.
+[3/3/18 17:09:11:943 CST] 00000018 com.ibm.ws.session.WASSessionCore                            I SESN0176I: A new session context will be created for application key default_host/
+[3/3/18 17:09:11:956 CST] 00000018 com.ibm.ws.util                                              I SESN0172I: The session manager is using the Java default SecureRandom implementation for session ID generation.
+[3/3/18 17:09:12:029 CST] 00000018 com.ibm.ws.webcontainer.webapp                               I SRVE0292I: Servlet Message - [Blackjack_war_exploded]:.No Spring WebApplicationInitializer types detected on classpath
+[3/3/18 17:09:12:182 CST] 00000018 com.ibm.ws.webcontainer.webapp                               I SRVE0292I: Servlet Message - [Blackjack_war_exploded]:.Initializing Spring FrameworkServlet 'dispatcherServlet'
+[3/3/18 17:09:12:183 CST] 00000018 org.springframework.web.servlet.DispatcherServlet            I FrameworkServlet 'dispatcherServlet': initialization started
+[3/3/18 17:09:12:214 CST] 00000018 springframework.web.context.support.XmlWebApplicationContext I Refreshing WebApplicationContext for namespace 'dispatcherServlet-servlet': startup date [Sat Mar 03 17:09:12 CST 2018]; root of context hierarchy
+[3/3/18 17:09:12:266 CST] 00000018 rg.springframework.beans.factory.xml.XmlBeanDefinitionReader I Loading XML bean definitions from ServletContext resource [/WEB-INF/dispatcher-servlet.xml]
+[3/3/18 17:09:12:709 CST] 00000018 .springframework.web.servlet.handler.SimpleUrlHandlerMapping I Mapped URL path [/*.jpg] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+[3/3/18 17:09:12:785 CST] 00000018 b.servlet.mvc.method.annotation.RequestMappingHandlerMapping I Mapped "{[/main]}" onto public org.springframework.web.servlet.ModelAndView controllers.SessionManager.mainMethod()
+[3/3/18 17:09:12:787 CST] 00000018 b.servlet.mvc.method.annotation.RequestMappingHandlerMapping I Mapped "{[/string]}" onto public java.lang.String controllers.SessionManager.s()
+[3/3/18 17:09:12:841 CST] 00000018 b.servlet.mvc.method.annotation.RequestMappingHandlerAdapter I Looking for @ControllerAdvice: WebApplicationContext for namespace 'dispatcherServlet-servlet': startup date [Sat Mar 03 17:09:12 CST 2018]; root of context hierarchy
+[3/3/18 17:09:12:878 CST] 00000018 b.servlet.mvc.method.annotation.RequestMappingHandlerAdapter I Looking for @ControllerAdvice: WebApplicationContext for namespace 'dispatcherServlet-servlet': startup date [Sat Mar 03 17:09:12 CST 2018]; root of context hierarchy
+[3/3/18 17:09:12:914 CST] 00000018 org.springframework.web.servlet.DispatcherServlet            I FrameworkServlet 'dispatcherServlet': initialization completed in 731 ms
+[3/3/18 17:09:12:915 CST] 00000018 com.ibm.ws.webcontainer.servlet                              I SRVE0242I: [Blackjack_war_exploded] [/] [dispatcherServlet]: Initialization successful.
+[3/3/18 17:09:12:967 CST] 00000018 org.springframework.web.servlet.PageNotFound                 W No mapping found for HTTP request with URI [/] in DispatcherServlet with name 'dispatcherServlet'
+[3/3/18 17:09:12:977 CST] 0000002e org.springframework.web.servlet.PageNotFound                 W No mapping found for HTTP request with URI [/] in DispatcherServlet with name 'dispatcherServlet'
+[3/3/18 17:09:13:452 CST] 0000002c org.springframework.web.servlet.PageNotFound                 W No mapping found for HTTP request with URI [/] in DispatcherServlet with name 'dispatcherServlet'
+[3/3/18 17:09:13:607 CST] 00000018 org.springframework.web.servlet.PageNotFound                 W No mapping found for HTTP request with URI [/favicon.ico] in DispatcherServlet with name 'dispatcherServlet'
+[3/3/18 17:09:20:410 CST] 00000026 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0017I: Web application removed (default_host): http://localhost:9080/
+[3/3/18 17:09:20:413 CST] 00000026 com.ibm.ws.webcontainer.webapp                               I SRVE0292I: Servlet Message - [Blackjack_war_exploded]:.Destroying Spring FrameworkServlet 'dispatcherServlet'
+[3/3/18 17:09:20:417 CST] 00000026 springframework.web.context.support.XmlWebApplicationContext I Closing WebApplicationContext for namespace 'dispatcherServlet-servlet': startup date [Sat Mar 03 17:09:12 CST 2018]; root of context hierarchy
+[3/3/18 17:09:20:420 CST] 00000026 com.ibm.ws.webcontainer.servlet                              I SRVE0253I: [Blackjack_war_exploded] [/] [dispatcherServlet]: Destroy successful.
+[3/3/18 17:09:20:456 CST] 00000026 com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0009I: The application Blackjack_war_exploded has stopped successfully.
+[3/3/18 17:09:20:466 CST] 00000026 com.ibm.ws.app.manager.AppMessageHelper                      I CWWKZ0018I: Starting application Blackjack_war_exploded.
+[3/3/18 17:09:20:568 CST] 00000038 com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: A configuration file for a web server plugin was automatically generated for this server at /home/isaac/IdeaProjects/Blackjack/websphere/wlp/usr/servers/WebSphereDefaultServer/logs/state/plugin-cfg.xml.
+[3/3/18 17:09:21:090 CST] 00000026 com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: Loading Web Module: Blackjack.
+[3/3/18 17:09:21:091 CST] 00000026 com.ibm.ws.webcontainer                                      I SRVE0250I: Web Module Blackjack has been bound to default_host.
+[3/3/18 17:09:21:091 CST] 00000026 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0016I: Web application available (default_host): http://localhost:9080/
+[3/3/18 17:09:21:091 CST] 00000026 com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0003I: The application Blackjack_war_exploded updated in 0.625 seconds.
+[3/3/18 17:09:21:147 CST] 00000022 com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: A configuration file for a web server plugin was automatically generated for this server at /home/isaac/IdeaProjects/Blackjack/websphere/wlp/usr/servers/WebSphereDefaultServer/logs/state/plugin-cfg.xml.
+[3/3/18 17:09:24:214 CST] 00000030 com.ibm.ws.session.WASSessionCore                            I SESN0176I: A new session context will be created for application key default_host/
+[3/3/18 17:09:24:214 CST] 00000030 com.ibm.ws.util                                              I SESN0172I: The session manager is using the Java default SecureRandom implementation for session ID generation.
+[3/3/18 17:09:24:226 CST] 00000030 com.ibm.ws.webcontainer.webapp                               I SRVE0292I: Servlet Message - [Blackjack_war_exploded]:.No Spring WebApplicationInitializer types detected on classpath
+[3/3/18 17:09:24:337 CST] 00000030 com.ibm.ws.webcontainer.webapp                               I SRVE0292I: Servlet Message - [Blackjack_war_exploded]:.Initializing Spring FrameworkServlet 'dispatcherServlet'
+[3/3/18 17:09:24:337 CST] 00000030 org.springframework.web.servlet.DispatcherServlet            I FrameworkServlet 'dispatcherServlet': initialization started
+[3/3/18 17:09:24:357 CST] 00000030 springframework.web.context.support.XmlWebApplicationContext I Refreshing WebApplicationContext for namespace 'dispatcherServlet-servlet': startup date [Sat Mar 03 17:09:24 CST 2018]; root of context hierarchy
+[3/3/18 17:09:24:390 CST] 00000030 rg.springframework.beans.factory.xml.XmlBeanDefinitionReader I Loading XML bean definitions from ServletContext resource [/WEB-INF/dispatcher-servlet.xml]
+[3/3/18 17:09:24:633 CST] 00000030 .springframework.web.servlet.handler.SimpleUrlHandlerMapping I Mapped URL path [/*.jpg] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+[3/3/18 17:09:24:681 CST] 00000030 b.servlet.mvc.method.annotation.RequestMappingHandlerMapping I Mapped "{[/]}" onto public org.springframework.web.servlet.ModelAndView controllers.SessionManager.mainMethod()
+[3/3/18 17:09:24:719 CST] 00000030 b.servlet.mvc.method.annotation.RequestMappingHandlerAdapter I Looking for @ControllerAdvice: WebApplicationContext for namespace 'dispatcherServlet-servlet': startup date [Sat Mar 03 17:09:24 CST 2018]; root of context hierarchy
+[3/3/18 17:09:24:748 CST] 00000030 b.servlet.mvc.method.annotation.RequestMappingHandlerAdapter I Looking for @ControllerAdvice: WebApplicationContext for namespace 'dispatcherServlet-servlet': startup date [Sat Mar 03 17:09:24 CST 2018]; root of context hierarchy
+[3/3/18 17:09:24:772 CST] 00000030 org.springframework.web.servlet.DispatcherServlet            I FrameworkServlet 'dispatcherServlet': initialization completed in 434 ms
+[3/3/18 17:09:24:772 CST] 00000030 com.ibm.ws.webcontainer.servlet                              I SRVE0242I: [Blackjack_war_exploded] [/] [dispatcherServlet]: Initialization successful.
+[3/3/18 17:09:25:171 CST] 00000030 com.ibm.ws.webcontainer.servlet                              I SRVE0242I: [Blackjack_war_exploded] [/] [/WEB-INF/views/login.jsp]: Initialization successful.
+[3/3/18 17:10:02:658 CST] 0000002c com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0017I: Web application removed (default_host): http://localhost:9080/
+[3/3/18 17:10:02:659 CST] 0000002c com.ibm.ws.webcontainer.webapp                               I SRVE0292I: Servlet Message - [Blackjack_war_exploded]:.Destroying Spring FrameworkServlet 'dispatcherServlet'
+[3/3/18 17:10:02:659 CST] 0000002c springframework.web.context.support.XmlWebApplicationContext I Closing WebApplicationContext for namespace 'dispatcherServlet-servlet': startup date [Sat Mar 03 17:09:24 CST 2018]; root of context hierarchy
+[3/3/18 17:10:02:661 CST] 0000002c com.ibm.ws.webcontainer.servlet                              I SRVE0253I: [Blackjack_war_exploded] [/] [dispatcherServlet]: Destroy successful.
+[3/3/18 17:10:02:661 CST] 0000002c com.ibm.ws.webcontainer.servlet                              I SRVE0253I: [Blackjack_war_exploded] [/] [/WEB-INF/views/login.jsp]: Destroy successful.
+[3/3/18 17:10:02:665 CST] 0000002c com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0009I: The application Blackjack_war_exploded has stopped successfully.
+[3/3/18 17:10:02:668 CST] 0000002c com.ibm.ws.app.manager.AppMessageHelper                      I CWWKZ0018I: Starting application Blackjack_war_exploded.
+[3/3/18 17:10:02:736 CST] 00000048 com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: A configuration file for a web server plugin was automatically generated for this server at /home/isaac/IdeaProjects/Blackjack/websphere/wlp/usr/servers/WebSphereDefaultServer/logs/state/plugin-cfg.xml.
+[3/3/18 17:10:03:054 CST] 0000002c com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: Loading Web Module: Blackjack.
+[3/3/18 17:10:03:055 CST] 0000002c com.ibm.ws.webcontainer                                      I SRVE0250I: Web Module Blackjack has been bound to default_host.
+[3/3/18 17:10:03:055 CST] 0000002c com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0016I: Web application available (default_host): http://localhost:9080/
+[3/3/18 17:10:03:055 CST] 0000002c com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0003I: The application Blackjack_war_exploded updated in 0.387 seconds.
+[3/3/18 17:10:03:110 CST] 00000025 com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: A configuration file for a web server plugin was automatically generated for this server at /home/isaac/IdeaProjects/Blackjack/websphere/wlp/usr/servers/WebSphereDefaultServer/logs/state/plugin-cfg.xml.
+[3/3/18 17:10:04:198 CST] 00000047 com.ibm.ws.session.WASSessionCore                            I SESN0176I: A new session context will be created for application key default_host/
+[3/3/18 17:10:04:198 CST] 00000047 com.ibm.ws.util                                              I SESN0172I: The session manager is using the Java default SecureRandom implementation for session ID generation.
+[3/3/18 17:10:04:210 CST] 00000047 com.ibm.ws.webcontainer.webapp                               I SRVE0292I: Servlet Message - [Blackjack_war_exploded]:.No Spring WebApplicationInitializer types detected on classpath
+[3/3/18 17:10:04:342 CST] 00000047 com.ibm.ws.webcontainer.webapp                               I SRVE0292I: Servlet Message - [Blackjack_war_exploded]:.Initializing Spring FrameworkServlet 'dispatcherServlet'
+[3/3/18 17:10:04:343 CST] 00000047 org.springframework.web.servlet.DispatcherServlet            I FrameworkServlet 'dispatcherServlet': initialization started
+[3/3/18 17:10:04:361 CST] 00000047 springframework.web.context.support.XmlWebApplicationContext I Refreshing WebApplicationContext for namespace 'dispatcherServlet-servlet': startup date [Sat Mar 03 17:10:04 CST 2018]; root of context hierarchy
+[3/3/18 17:10:04:397 CST] 00000047 rg.springframework.beans.factory.xml.XmlBeanDefinitionReader I Loading XML bean definitions from ServletContext resource [/WEB-INF/dispatcher-servlet.xml]
+[3/3/18 17:10:04:808 CST] 00000047 .springframework.web.servlet.handler.SimpleUrlHandlerMapping I Mapped URL path [/*.jpg] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+[3/3/18 17:10:04:859 CST] 00000047 b.servlet.mvc.method.annotation.RequestMappingHandlerMapping I Mapped "{[/]}" onto public org.springframework.web.servlet.ModelAndView controllers.SessionManager.mainMethod()
+[3/3/18 17:10:04:886 CST] 00000047 b.servlet.mvc.method.annotation.RequestMappingHandlerAdapter I Looking for @ControllerAdvice: WebApplicationContext for namespace 'dispatcherServlet-servlet': startup date [Sat Mar 03 17:10:04 CST 2018]; root of context hierarchy
+[3/3/18 17:10:04:919 CST] 00000047 b.servlet.mvc.method.annotation.RequestMappingHandlerAdapter I Looking for @ControllerAdvice: WebApplicationContext for namespace 'dispatcherServlet-servlet': startup date [Sat Mar 03 17:10:04 CST 2018]; root of context hierarchy
+[3/3/18 17:10:04:947 CST] 00000047 org.springframework.web.servlet.DispatcherServlet            I FrameworkServlet 'dispatcherServlet': initialization completed in 604 ms
+[3/3/18 17:10:04:947 CST] 00000047 com.ibm.ws.webcontainer.servlet                              I SRVE0242I: [Blackjack_war_exploded] [/] [dispatcherServlet]: Initialization successful.
+[3/3/18 17:10:05:017 CST] 00000047 com.ibm.ws.webcontainer.servlet                              I SRVE0242I: [Blackjack_war_exploded] [/] [/WEB-INF/views/login.jsp]: Initialization successful.
+[3/3/18 17:10:32:258 CST] 00000053 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0017I: Web application removed (default_host): http://localhost:9080/
+[3/3/18 17:10:32:259 CST] 00000053 com.ibm.ws.webcontainer.webapp                               I SRVE0292I: Servlet Message - [Blackjack_war_exploded]:.Destroying Spring FrameworkServlet 'dispatcherServlet'
+[3/3/18 17:10:32:260 CST] 00000053 springframework.web.context.support.XmlWebApplicationContext I Closing WebApplicationContext for namespace 'dispatcherServlet-servlet': startup date [Sat Mar 03 17:10:04 CST 2018]; root of context hierarchy
+[3/3/18 17:10:32:261 CST] 00000053 com.ibm.ws.webcontainer.servlet                              I SRVE0253I: [Blackjack_war_exploded] [/] [dispatcherServlet]: Destroy successful.
+[3/3/18 17:10:32:261 CST] 00000053 com.ibm.ws.webcontainer.servlet                              I SRVE0253I: [Blackjack_war_exploded] [/] [/WEB-INF/views/login.jsp]: Destroy successful.
+[3/3/18 17:10:32:264 CST] 00000053 com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0009I: The application Blackjack_war_exploded has stopped successfully.
+[3/3/18 17:10:32:271 CST] 00000053 com.ibm.ws.app.manager.AppMessageHelper                      I CWWKZ0018I: Starting application Blackjack_war_exploded.
+[3/3/18 17:10:32:319 CST] 0000003e com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: A configuration file for a web server plugin was automatically generated for this server at /home/isaac/IdeaProjects/Blackjack/websphere/wlp/usr/servers/WebSphereDefaultServer/logs/state/plugin-cfg.xml.
+[3/3/18 17:10:32:648 CST] 00000053 com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: Loading Web Module: Blackjack.
+[3/3/18 17:10:32:648 CST] 00000053 com.ibm.ws.webcontainer                                      I SRVE0250I: Web Module Blackjack has been bound to default_host.
+[3/3/18 17:10:32:648 CST] 00000053 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0016I: Web application available (default_host): http://localhost:9080/
+[3/3/18 17:10:32:648 CST] 00000053 com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0003I: The application Blackjack_war_exploded updated in 0.377 seconds.
+[3/3/18 17:10:32:686 CST] 00000021 com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: A configuration file for a web server plugin was automatically generated for this server at /home/isaac/IdeaProjects/Blackjack/websphere/wlp/usr/servers/WebSphereDefaultServer/logs/state/plugin-cfg.xml.
+[3/3/18 17:10:33:047 CST] 00000052 com.ibm.ws.session.WASSessionCore                            I SESN0176I: A new session context will be created for application key default_host/
+[3/3/18 17:10:33:047 CST] 00000052 com.ibm.ws.util                                              I SESN0172I: The session manager is using the Java default SecureRandom implementation for session ID generation.
+[3/3/18 17:10:33:058 CST] 00000052 com.ibm.ws.webcontainer.webapp                               I SRVE0292I: Servlet Message - [Blackjack_war_exploded]:.No Spring WebApplicationInitializer types detected on classpath
+[3/3/18 17:10:33:191 CST] 00000052 com.ibm.ws.webcontainer.webapp                               I SRVE0292I: Servlet Message - [Blackjack_war_exploded]:.Initializing Spring FrameworkServlet 'dispatcherServlet'
+[3/3/18 17:10:33:191 CST] 00000052 org.springframework.web.servlet.DispatcherServlet            I FrameworkServlet 'dispatcherServlet': initialization started
+[3/3/18 17:10:33:213 CST] 00000052 springframework.web.context.support.XmlWebApplicationContext I Refreshing WebApplicationContext for namespace 'dispatcherServlet-servlet': startup date [Sat Mar 03 17:10:33 CST 2018]; root of context hierarchy
+[3/3/18 17:10:33:262 CST] 00000052 rg.springframework.beans.factory.xml.XmlBeanDefinitionReader I Loading XML bean definitions from ServletContext resource [/WEB-INF/dispatcher-servlet.xml]
+[3/3/18 17:10:33:535 CST] 00000052 .springframework.web.servlet.handler.SimpleUrlHandlerMapping I Mapped URL path [/*.jpg] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+[3/3/18 17:10:33:594 CST] 00000052 b.servlet.mvc.method.annotation.RequestMappingHandlerMapping I Mapped "{[/]}" onto public org.springframework.web.servlet.ModelAndView controllers.SessionManager.mainMethod()
+[3/3/18 17:10:33:627 CST] 00000052 b.servlet.mvc.method.annotation.RequestMappingHandlerAdapter I Looking for @ControllerAdvice: WebApplicationContext for namespace 'dispatcherServlet-servlet': startup date [Sat Mar 03 17:10:33 CST 2018]; root of context hierarchy
+[3/3/18 17:10:33:662 CST] 00000052 b.servlet.mvc.method.annotation.RequestMappingHandlerAdapter I Looking for @ControllerAdvice: WebApplicationContext for namespace 'dispatcherServlet-servlet': startup date [Sat Mar 03 17:10:33 CST 2018]; root of context hierarchy
+[3/3/18 17:10:33:695 CST] 00000052 org.springframework.web.servlet.DispatcherServlet            I FrameworkServlet 'dispatcherServlet': initialization completed in 504 ms
+[3/3/18 17:10:33:695 CST] 00000052 com.ibm.ws.webcontainer.servlet                              I SRVE0242I: [Blackjack_war_exploded] [/] [dispatcherServlet]: Initialization successful.
+[3/3/18 17:10:33:769 CST] 00000052 com.ibm.ws.webcontainer.servlet                              I SRVE0242I: [Blackjack_war_exploded] [/] [/WEB-INF/views/login.jsp]: Initialization successful.
+[3/3/18 17:11:03:772 CST] 0000000f com.ibm.ws.kernel.launch.internal.ServerCommandListener      A CWWKE0055I: Server shutdown requested on Saturday, March 3, 2018 at 5:11 PM. The server WebSphereDefaultServer is shutting down.
+[3/3/18 17:11:03:774 CST] 00000061 com.ibm.ws.runtime.update.internal.RuntimeUpdateManagerImpl  A CWWKE1100I: Waiting for up to 30 seconds for the server to quiesce.
+[3/3/18 17:11:03:776 CST] 00000062 com.ibm.ws.tcpchannel.internal.TCPChannel                    I CWWKO0220I: TCP Channel defaultHttpEndpoint has stopped listening for requests on host localhost  (IPv4: 127.0.0.1) port 9080.
+[3/3/18 17:11:03:777 CST] 00000062 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0017I: Web application removed (default_host): http://localhost:9080/SpringTest/
+[3/3/18 17:11:03:777 CST] 00000062 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0017I: Web application removed (default_host): http://localhost:9080/
+[3/3/18 17:11:03:779 CST] 00000061 com.ibm.ws.runtime.update.internal.RuntimeUpdateManagerImpl  I CWWKE1101I: Server quiesce complete.
+[3/3/18 17:11:03:785 CST] 00000057 com.ibm.ws.webcontainer.webapp                               I SRVE0292I: Servlet Message - [Blackjack_war_exploded]:.Destroying Spring FrameworkServlet 'dispatcherServlet'
+[3/3/18 17:11:03:786 CST] 00000057 springframework.web.context.support.XmlWebApplicationContext I Closing WebApplicationContext for namespace 'dispatcherServlet-servlet': startup date [Sat Mar 03 17:10:33 CST 2018]; root of context hierarchy
+[3/3/18 17:11:03:788 CST] 00000057 com.ibm.ws.webcontainer.servlet                              I SRVE0253I: [Blackjack_war_exploded] [/] [dispatcherServlet]: Destroy successful.
+[3/3/18 17:11:03:788 CST] 00000057 com.ibm.ws.webcontainer.servlet                              I SRVE0253I: [Blackjack_war_exploded] [/] [/WEB-INF/views/login.jsp]: Destroy successful.
+[3/3/18 17:11:03:791 CST] 00000057 com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0009I: The application Blackjack_war_exploded has stopped successfully.
+[3/3/18 17:11:03:793 CST] 0000005a com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0009I: The application SpringTest has stopped successfully.
+[3/3/18 17:11:03:994 CST] 00000001 com.ibm.ws.kernel.launch.internal.FrameworkManager           A CWWKE0036I: The server WebSphereDefaultServer stopped after 1 minutes, 58.045 seconds.

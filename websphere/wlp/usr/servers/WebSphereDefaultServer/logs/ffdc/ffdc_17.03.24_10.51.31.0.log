@@ -1,0 +1,512 @@
+------Start of DE processing------ = [3/24/17 10:51:31:605 CST]
+Exception = com.ibm.wsspi.genericbnf.exception.MessageSentException
+Source = com.ibm.wsspi.http.ee7.HttpOutputStreamEE7
+probeid = flushBuffers
+Stack Dump = com.ibm.wsspi.genericbnf.exception.MessageSentException: Message already sent
+	at com.ibm.ws.http.channel.internal.inbound.HttpInboundServiceContextImpl.sendResponseBody(HttpInboundServiceContextImpl.java:743)
+	at com.ibm.ws.http.channel.internal.outbound.HttpOutputStreamImpl.flushBuffers(HttpOutputStreamImpl.java:495)
+	at com.ibm.ws.http.channel.internal.outbound.HttpOutputStreamImpl.flush(HttpOutputStreamImpl.java:593)
+	at com.ibm.wsspi.http.ee7.HttpOutputStreamEE7.flush(HttpOutputStreamEE7.java:300)
+	at com.ibm.ws.http.channel.internal.outbound.HttpOutputStreamImpl.flush(HttpOutputStreamImpl.java:604)
+	at com.ibm.ws.webcontainer.osgi.response.WCOutputStream.flush(WCOutputStream.java:243)
+	at com.ibm.ws.webcontainer.srt.SRTOutputStream.flush(SRTOutputStream.java:68)
+	at sun.nio.cs.StreamEncoder.implFlush(Unknown Source)
+	at sun.nio.cs.StreamEncoder.flush(Unknown Source)
+	at java.io.OutputStreamWriter.flush(Unknown Source)
+	at com.ibm.wsspi.webcontainer.util.BufferedWriter.writeOut(BufferedWriter.java:582)
+	at com.ibm.wsspi.webcontainer.util.BufferedWriter.flushChars(BufferedWriter.java:446)
+	at com.ibm.wsspi.webcontainer.util.BufferedWriter.flush(BufferedWriter.java:418)
+	at java.io.PrintWriter.flush(Unknown Source)
+	at com.ibm.ws.webcontainer.srt.SRTServletResponse.flushBuffer(SRTServletResponse.java:694)
+	at com.ibm.ws.webcontainer.srt.SRTServletResponse.finish(SRTServletResponse.java:295)
+	at com.ibm.ws.webcontainer31.osgi.srt.SRTConnectionContext31.finishConnection(SRTConnectionContext31.java:199)
+	at com.ibm.ws.webcontainer.WebContainer.handleRequest(WebContainer.java:1173)
+	at com.ibm.ws.webcontainer.osgi.DynamicVirtualHost$2.run(DynamicVirtualHost.java:280)
+	at com.ibm.ws.http.dispatcher.internal.channel.HttpDispatcherLink$TaskWrapper.run(HttpDispatcherLink.java:967)
+	at com.ibm.ws.http.dispatcher.internal.channel.HttpDispatcherLink.wrapHandlerAndExecute(HttpDispatcherLink.java:359)
+	at com.ibm.ws.http.dispatcher.internal.channel.HttpDispatcherLink.ready(HttpDispatcherLink.java:318)
+	at com.ibm.ws.http.channel.internal.inbound.HttpInboundLink.handleDiscrimination(HttpInboundLink.java:471)
+	at com.ibm.ws.http.channel.internal.inbound.HttpInboundLink.handleNewRequest(HttpInboundLink.java:405)
+	at com.ibm.ws.http.channel.internal.inbound.HttpInboundLink.processRequest(HttpInboundLink.java:285)
+	at com.ibm.ws.http.channel.internal.inbound.HttpICLReadCallback.complete(HttpICLReadCallback.java:66)
+	at com.ibm.ws.tcpchannel.internal.WorkQueueManager.requestComplete(WorkQueueManager.java:504)
+	at com.ibm.ws.tcpchannel.internal.WorkQueueManager.attemptIO(WorkQueueManager.java:574)
+	at com.ibm.ws.tcpchannel.internal.WorkQueueManager.workerRun(WorkQueueManager.java:929)
+	at com.ibm.ws.tcpchannel.internal.WorkQueueManager$Worker.run(WorkQueueManager.java:1018)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+Dump of callerThis
+null
+Dump of objectArray[0]
+Object type = com.ibm.wsspi.http.ee7.HttpOutputStreamEE7
+  tc = class com.ibm.websphere.ras.TraceComponent@23c47e92
+    strings[0] = "TraceComponent[com.ibm.wsspi.http.ee7.HttpOutputStreamEE7,class com.ibm.wsspi.http.ee7.HttpOutputStreamEE7,[HTTPChannel],com.ibm.ws.http.channel.internal.resources.httpchannelmessages,null]"
+  _callback = null
+  _isReady = true
+  _internalReady = true
+  _bytesRemainingWhenAsync = 0
+  _remValue = null
+  _dataSaved = false
+  _lockObj = class com.ibm.wsspi.http.ee7.HttpOutputStreamEE7$1@4dc1e62e
+    this$0 = class com.ibm.wsspi.http.ee7.HttpOutputStreamEE7@1145ad1f
+    serialVersionUID = 1818073030646734277
+    $$$tc$$$ = class com.ibm.websphere.ras.TraceComponent@36a5ab92
+      strings[0] = "TraceComponent[com.ibm.wsspi.http.ee7.HttpOutputStreamEE7$1,class com.ibm.wsspi.http.ee7.HttpOutputStreamEE7$1,[],null,null]"
+  _writeReadyLockObj = class com.ibm.wsspi.http.ee7.HttpOutputStreamEE7$2@1a5679e3
+    this$0 = class com.ibm.wsspi.http.ee7.HttpOutputStreamEE7@1145ad1f
+    serialVersionUID = 673193084762718029
+    $$$tc$$$ = class com.ibm.websphere.ras.TraceComponent@104a4d0c
+      strings[0] = "TraceComponent[com.ibm.wsspi.http.ee7.HttpOutputStreamEE7$2,class com.ibm.wsspi.http.ee7.HttpOutputStreamEE7$2,[],null,null]"
+  status_not_ready_checked = false
+  write_crlf_pending = false
+  exceptionDuringOnWP = false
+  serialVersionUID = 2421318657626897978
+  tc = class com.ibm.websphere.ras.TraceComponent@162c3478
+    strings[0] = "TraceComponent[com.ibm.ws.http.channel.internal.outbound.HttpOutputStreamImpl,class com.ibm.ws.http.channel.internal.outbound.HttpOutputStreamImpl,[HTTPChannel],com.ibm.ws.http.channel.internal.resources.httpchannelmessages,null]"
+  isc = class com.ibm.ws.http.channel.internal.inbound.HttpInboundServiceContextImpl@65b69795
+    strings[0] = "Message parsed: com.ibm.ws.http.channel.internal.HttpRequestMessageImpl@6ba7f60f"
+    strings[1] = "Host=localhost:9080"
+    strings[2] = "User-Agent=Mozilla/5.0 (Windows NT 10.0; WOW64; rv:52.0) Gecko/20100101 Firefox/52.0"
+    strings[3] = "Accept=*/*"
+    strings[4] = "Accept-Language=en-US,en;q=0.5"
+    strings[5] = "Accept-Encoding=gzip, deflate"
+    strings[6] = "Content-Type=application/x-www-form-urlencoded; charset=UTF-8"
+    strings[7] = "X-Requested-With=XMLHttpRequest"
+    strings[8] = "Referer=http://localhost:9080/SpringTest/users"
+    strings[9] = "Content-Length=39"
+    strings[10] = "Cookie=JSESSIONID=0000TiBt8_JveJa-EwQRq8mNyD5:dea6416d-63b5-48a5-9e0a-616844f067a0"
+    strings[11] = "Connection=keep-alive"
+    strings[12] = "read buffer=PooledWsByteBufferImpl@73fe3d78/2 ID=20 java.nio.DirectByteBuffer[pos=543 lim=543 cap=8192] [WsByteBufferPool@2db16ada/8192]"
+    strings[13] = "ReadBufferSize=32768"
+    strings[14] = "ReadTimeout=60000"
+    strings[15] = "WriteTimeout=60000"
+    strings[16] = "unparsedDataRemaining=0"
+  vc = class com.ibm.ws.channelfw.internal.InboundVirtualConnectionImpl@2784ed9b
+    discStatus = null
+    dp = null
+    tc = class com.ibm.websphere.ras.TraceComponent@7a304edc
+      strings[0] = "TraceComponent[com.ibm.ws.channelfw.internal.VirtualConnectionImpl,class com.ibm.ws.channelfw.internal.VirtualConnectionImpl,[ChannelFramework],com.ibm.ws.channelfw.internal.resources.ChannelfwMessages,null]"
+    ONE_MILLISECOND_IN_NANOSECONDS = 1000000
+    stateStore = class java.util.HashMap@2aa8fac7
+      serialVersionUID = 362498820763181265
+      DEFAULT_INITIAL_CAPACITY = 16
+      MAXIMUM_CAPACITY = 1073741824
+      DEFAULT_LOAD_FACTOR = 0.75
+      TREEIFY_THRESHOLD = 8
+      UNTREEIFY_THRESHOLD = 6
+      MIN_TREEIFY_CAPACITY = 64
+      table = class java.util.HashMap$Node[16]
+      entrySet = null
+      size = 7
+      modCount = 7
+      threshold = 12
+      loadFactor = 0.75
+      keySet = null
+      values = null
+    READ_PENDING = 4097
+    READ_WAITING = 4098
+    READ_FINISHING = 4100
+    WRITE_PENDING = 4112
+    WRITE_WAITING = 4128
+    WRITE_FINISHING = 4160
+    CLOSE_PENDING = 4352
+    IN_USE_MASK = 4096
+    IN_USE_MASK_CLEAR_OUT = -4097
+    READ_PENDING_CLEAR_OUT = -7
+    READ_FINISHING_CLEAR_OUT = -4
+    READ_WAITING_CLEAR_OUT = -6
+    READ_DONE_CLEAR_OUT = -8
+    WRITE_PENDING_CLEAR_OUT = -97
+    WRITE_FINISHING_CLEAR_OUT = -49
+    WRITE_WAITING_CLEAR_OUT = -81
+    WRITE_DONE_CLEAR_OUT = -113
+    CLOSE_NOT_ALLOWED_MASK = 341
+    FINISH_NOT_ALLOWED_MASK = 256
+    READ_NOT_ALLOWED_MASK = 263
+    WRITE_NOT_ALLOWED_MASK = 368
+    READ_OUTSTANDING = 7
+    WRITE_OUTSTANDING = 112
+    closeWaiting = false
+    currentState = 0
+    readOutWithClosePending = false
+    writeOutWithClosePending = false
+    inetAddressingValid = true
+    connDesc = class com.ibm.ws.channelfw.internal.ConnectionDescriptorImpl@1ebf9d84
+      remoteHostName = null
+      localHostName = null
+      remoteHostAddress = null
+      localHostAddress = null
+      addrLocal = class java.net.Inet4Address@71ee6d7f
+      addrRemote = class java.net.Inet4Address@6bcc476b
+    fileChannelCapable = 2
+  ignoreFlush = false
+  bbSize = 8192
+  amountToBuffer = 32768
+  bufferedCount = 2
+  output = interface com.ibm.wsspi.bytebuffer.WsByteBuffer[4]
+    output[0] = class com.ibm.ws.bytebuffer.internal.PooledWsByteBufferImpl@3667b5e8
+      tc = class com.ibm.websphere.ras.TraceComponent@1fb161b2
+      serialVersionUID = -7843989267561719849
+      getMin = -1
+      getMax = -1
+      putMin = -1
+      putMax = -1
+      readMin = -1
+      readMax = -1
+      COPY_ALL_INIT = 0
+      COPY_WHEN_NEEDED_STATE1 = 1
+      COPY_WHEN_NEEDED_STATE2 = 2
+      COPY_ALL_FINAL = 4
+      actionState = 0
+      actionAccess = class java.lang.Object@31b0b378
+      identifier = 32
+      intReferenceCount = 1
+      pool = class com.ibm.ws.bytebuffer.internal.WsByteBufferPool@45a5f3d
+      owners = null
+      allWsByteBuffers = null
+      serialVersionUID = 3794216509672320032
+      tc = class com.ibm.websphere.ras.TraceComponent@62d0f72c
+      oByteBuffer = class java.nio.HeapByteBuffer@8331f97
+      oWsBBDirect = class java.nio.DirectByteBuffer@3c2c469a
+      booleanReleaseCalled = class java.util.concurrent.atomic.AtomicBoolean@6ad95595
+      oWsByteBufferPoolManager = class com.ibm.ws.bytebuffer.internal.WsByteBufferPoolManagerImpl@1b276ba7
+      isDirectPool = false
+      readOnly = false
+      trusted = false
+      removedFromLeakDetection = false
+      ownerID = null
+      lastAccessTime = 0
+      wsBBRoot = class com.ibm.ws.bytebuffer.internal.PooledWsByteBufferImpl@3667b5e8
+      wsBBRefRoot = null
+      NOT_ACTIVATED = 0
+      ACTIVATED = 1
+      quickBufferAction = 0
+      GET_THRESHOLD = 1023
+      PUT_THRESHOLD = 2047
+      status = 1
+    output[1] = null
+    output[2] = null
+    output[3] = null
+  outputIndex = 0
+  writing = true
+  closed = false
+  error = null
+  bytesWritten = 6831
+  contentLengthSet = false
+  bytesRemaining = -1
+  isClosing = false
+  hasFinished = true
+  obs = class com.ibm.ws.webcontainer31.srt.SRTServletResponse31@422823a
+    tc = class com.ibm.websphere.ras.TraceComponent@61e58f3d
+      strings[0] = "TraceComponent[com.ibm.ws.webcontainer31.srt.SRTServletResponse31,class com.ibm.ws.webcontainer31.srt.SRTServletResponse31,[webcontainer],com.ibm.ws.webcontainer31.resources.Messages,null]"
+    logger = class com.ibm.ws.logging.internal.WsLogger@24fee0d7
+      tc = class com.ibm.websphere.ras.TraceComponent@7ee4e163
+      ivCachedResourceBundleName = null
+      ivCachedResourceBundle = null
+      ivComponent = null
+      ivOrganization = null
+      ivProduct = null
+      ivMinimumLocalizationLevelIntValue = 625
+      ivTC = class com.ibm.websphere.ras.TraceComponent@28e6866c
+      loggerRegistrationComponent = class java.lang.ThreadLocal@3fa98904
+      emptyHandlers = class java.util.logging.Handler[0]
+      offValue = 2147483647
+      SYSTEM_LOGGER_RB_NAME = "sun.util.logging.resources.logging"
+      SYSTEM_BUNDLE = class java.util.logging.Logger$LoggerBundle@37c233e4
+      NO_RESOURCE_BUNDLE = class java.util.logging.Logger$LoggerBundle@3afd5768
+      manager = class com.ibm.ws.kernel.boot.logging.WsLogManager@27af1105
+      name = "com.ibm.ws.webcontainer.srt"
+      handlers = class java.util.concurrent.CopyOnWriteArrayList@54bd4d5d
+      loggerBundle = class java.util.logging.Logger$LoggerBundle@72c6093d
+      useParentHandlers = true
+      filter = null
+      anonymous = false
+      catalog = class com.ibm.ws.webcontainer.resources.Messages_es@22d0561a
+      catalogName = "com.ibm.ws.webcontainer.resources.Messages"
+      catalogLocale = class java.util.Locale@66a8422a
+      treeLock = class java.lang.Object@7d284c7c
+      parent = class com.ibm.ws.logging.internal.WsLogger@43412121
+      kids = null
+      levelObject = class java.util.logging.Level@18c4795
+      levelValue = 800
+      callersClassLoaderRef = class java.lang.ref.WeakReference@214ca138
+      isSystemLogger = false
+      GLOBAL_LOGGER_NAME = "global"
+      global = class java.util.logging.Logger@1eb852c1
+      $assertionsDisabled = true
+    CLASS_NAME = "com.ibm.ws.webcontainer.srt.SRTServletResponse31"
+    skipInputStreamRead = false
+    isCharEncodingExplicit = true
+    REASON_OK = {79,75} /* array length = 2*/
+    CONTENT_LANGUAGE_HEADER = "Content-Language"
+    CONTENT_LANGUAGE_HEADER_BYTES = {67,111,110,116,101,110,116,45,76,97,110,103,117,97,103,101} /* array length = 16*/
+    HEADER_CONTENT_TYPE_BYTES = {67,111,110,116,101,110,116,45,84,121,112,101} /* array length = 12*/
+    HEADER_CONTENT_LENGTH = "Content-Length"
+    HEADER_CONTENT_LENGTH_BYTES = {67,111,110,116,101,110,116,45,76,101,110,103,116,104} /* array length = 14*/
+    HEADER_CONTENT_ENCODING = "Content-Encoding"
+    HEADER_CONTENT_ENCODING_BYTES = {67,111,110,116,101,110,116,45,69,110,99,111,100,105,110,103} /* array length = 16*/
+    keepContentLength = false
+    skipHeaderFlush = false
+    contentTypeCompatibility = null
+    getSessionCompatibility = false
+    logger = class com.ibm.ws.logging.internal.WsLogger@24fee0d7
+    CLASS_NAME = "com.ibm.ws.webcontainer.srt.SRTServletResponse"
+    nls = class com.ibm.ejs.ras.TraceNLS@19a14ecf
+      resolver = class com.ibm.ws.logging.internal.TraceNLSResolver@1dc085d6
+      finder = null
+      ivBundleName = "com.ibm.ws.webcontainer.resources.Messages"
+      caller = class java.lang.Class@4a8af711
+    DEFAULT_BUFFER_SIZE = 4096
+    _defaultLocale = class java.util.Locale@66a8422a
+      LOCALECACHE = class java.util.Locale$Cache@7538b4ac
+      ENGLISH = class java.util.Locale@a332597
+      FRENCH = class java.util.Locale@67a088d4
+      GERMAN = class java.util.Locale@5916a19
+      ITALIAN = class java.util.Locale@35bc23d3
+      JAPANESE = class java.util.Locale@26b0b76e
+      KOREAN = class java.util.Locale@45356d44
+      CHINESE = class java.util.Locale@4b7a1659
+      SIMPLIFIED_CHINESE = class java.util.Locale@1f8c065e
+      TRADITIONAL_CHINESE = class java.util.Locale@3ca4c906
+      FRANCE = class java.util.Locale@5295dc9b
+      GERMANY = class java.util.Locale@49c6c04e
+      ITALY = class java.util.Locale@360791de
+      JAPAN = class java.util.Locale@2cf192e1
+      KOREA = class java.util.Locale@507cf2e0
+      CHINA = class java.util.Locale@1f8c065e
+      PRC = class java.util.Locale@1f8c065e
+      TAIWAN = class java.util.Locale@3ca4c906
+      UK = class java.util.Locale@2f478c11
+      US = class java.util.Locale@25447146
+      CANADA = class java.util.Locale@5028995
+      CANADA_FRENCH = class java.util.Locale@325e9027
+      ROOT = class java.util.Locale@21eaa579
+      PRIVATE_USE_EXTENSION = x
+      UNICODE_LOCALE_EXTENSION = u
+      serialVersionUID = 9149081749638150636
+      DISPLAY_LANGUAGE = 0
+      DISPLAY_COUNTRY = 1
+      DISPLAY_VARIANT = 2
+      DISPLAY_SCRIPT = 3
+      baseLocale = class sun.util.locale.BaseLocale@27222e43
+      localeExtensions = null
+      hashCodeValue = 96770468
+      defaultLocale = class java.util.Locale@66a8422a
+      defaultDisplayLocale = null
+      defaultFormatLocale = class java.util.Locale@25447146
+      languageTag = "es-ES"
+      serialPersistentFields = class java.io.ObjectStreamField[6]
+      isoLanguages = null
+      isoCountries = null
+      $assertionsDisabled = true
+    _defaultEncoding = "ISO-8859-1"
+    _response = class com.ibm.ws.webcontainer31.osgi.response.IResponse31Impl@efe422a
+      tcc = class com.ibm.ws.tcpchannel.internal.TCPConnLink@3f669984
+      vc = class com.ibm.ws.channelfw.internal.InboundVirtualConnectionImpl@2784ed9b
+      deviceConnLink = class com.ibm.ws.tcpchannel.internal.TCPConnLink@3f669984
+      connLink = class com.ibm.ws.http.channel.internal.inbound.HttpInboundLink@12ca7ad2
+      dispatcherLink = class com.ibm.ws.http.dispatcher.internal.channel.HttpDispatcherLink@4e779307
+      conn = class com.ibm.ws.http.dispatcher.internal.channel.HttpDispatcherLink@4e779307
+      request = class com.ibm.ws.webcontainer31.osgi.request.IRequest31Impl@71d9227f
+      response = class com.ibm.ws.http.dispatcher.internal.channel.HttpResponseImpl@3004ca7c
+      allocateDirect = false
+      outStream = class com.ibm.ws.webcontainer31.osgi.response.WCOutputStream31@95fd08
+      tc = class com.ibm.websphere.ras.TraceComponent@1d6960ce
+    writerClosed = false
+    _rawOut = class com.ibm.ws.webcontainer.srt.SRTOutputStream@13511e9b
+      _conn = class com.ibm.ws.webcontainer31.osgi.response.WCOutputStream31@95fd08
+      _observer = null
+      logger = class com.ibm.ws.logging.internal.WsLogger@24fee0d7
+      CLASS_NAME = "com.ibm.ws.webcontainer.srt.SRTOutputStream"
+      nls = class com.ibm.ejs.ras.TraceNLS@376965f3
+      fastCheck = 1
+      LSTRING_FILE = "javax.servlet.LocalStrings"
+      lStrings = class java.util.PropertyResourceBundle@2f1a2da1
+    _bufferedOut = class com.ibm.ws.webcontainer31.osgi.response.WCOutputStream31@95fd08
+      tc = class com.ibm.websphere.ras.TraceComponent@2d521f25
+      _listener = null
+      _callback = null
+      _httpOut = class com.ibm.wsspi.http.ee7.HttpOutputStreamEE7@1145ad1f
+      reqImpl = class com.ibm.ws.webcontainer31.osgi.request.IRequest31Impl@71d9227f
+      CRLF = {13,10} /* array length = 2*/
+      outputStreamNBClosed = false
+      CRLF = {13,10} /* array length = 2*/
+      output = class com.ibm.wsspi.http.ee7.HttpOutputStreamEE7@1145ad1f
+      singleByte = {0} /* array length = 1*/
+      closed = false
+      nls = class com.ibm.ejs.ras.TraceNLS@c7541c3
+      tc = class com.ibm.websphere.ras.TraceComponent@3370d5aa
+      LSTRING_FILE = "javax.servlet.LocalStrings"
+      lStrings = class java.util.PropertyResourceBundle@2f1a2da1
+    _bufferedWriter = class com.ibm.wsspi.webcontainer.util.BufferedWriter@24885622
+      tc = class com.ibm.websphere.ras.TraceComponent@76d6bd53
+      out = class java.io.OutputStreamWriter@4325c7d5
+      buf = {
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              ...} /* array length = 4096*/
+      count = 2
+      total = 6831
+      limit = -1
+      response = class com.ibm.ws.webcontainer31.osgi.response.IResponse31Impl@efe422a
+      length = -1
+      obs = class com.ibm.ws.webcontainer31.srt.SRTServletResponse31@422823a
+      _hasWritten = true
+      _hasFlushed = true
+      except = null
+      committed = true
+      bufferSize = 4096
+      closeOnClose = false
+      nls = class com.ibm.ejs.ras.TraceNLS@569f7cc6
+      writeBuffer = {
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              } /* array length = 1024*/
+      WRITE_BUFFER_SIZE = 1024
+      lock = class com.ibm.wsspi.webcontainer.util.BufferedWriter@24885622
+    _pwriter = class java.io.PrintWriter@581bbf8b
+      out = class com.ibm.wsspi.webcontainer.util.BufferedWriter@24885622
+      autoFlush = false
+      trouble = false
+      formatter = null
+      psOut = null
+      lineSeparator = "
+"
+      writeBuffer = null
+      WRITE_BUFFER_SIZE = 1024
+      lock = class com.ibm.wsspi.webcontainer.util.BufferedWriter@24885622
+    _firstWrite = true
+    _firstWriteToCurrentBuffer = true
+    _bufferSize = 4096
+    _gotWriter = true
+    _firstWriterRetrieval = true
+    _gotOutputStream = false
+    _firstOutputStreamRetrieval = true
+    _outWriter = class java.io.OutputStreamWriter@4325c7d5
+      se = class sun.nio.cs.StreamEncoder@75eb1d5f
+      writeBuffer = null
+      WRITE_BUFFER_SIZE = 1024
+      lock = class com.ibm.ws.webcontainer.srt.SRTOutputStream@13511e9b
+    _outWriterEncoding = "UTF-8"
+    writerException = false
+    _ignoreStateErrors = false
+    _headersWritten = true
+    _locale = class java.util.Locale@6cf70f04
+      LOCALECACHE = class java.util.Locale$Cache@7538b4ac
+      ENGLISH = class java.util.Locale@a332597
+      FRENCH = class java.util.Locale@67a088d4
+      GERMAN = class java.util.Locale@5916a19
+      ITALIAN = class java.util.Locale@35bc23d3
+      JAPANESE = class java.util.Locale@26b0b76e
+      KOREAN = class java.util.Locale@45356d44
+      CHINESE = class java.util.Locale@4b7a1659
+      SIMPLIFIED_CHINESE = class java.util.Locale@1f8c065e
+      TRADITIONAL_CHINESE = class java.util.Locale@3ca4c906
+      FRANCE = class java.util.Locale@5295dc9b
+      GERMANY = class java.util.Locale@49c6c04e
+      ITALY = class java.util.Locale@360791de
+      JAPAN = class java.util.Locale@2cf192e1
+      KOREA = class java.util.Locale@507cf2e0
+      CHINA = class java.util.Locale@1f8c065e
+      PRC = class java.util.Locale@1f8c065e
+      TAIWAN = class java.util.Locale@3ca4c906
+      UK = class java.util.Locale@2f478c11
+      US = class java.util.Locale@25447146
+      CANADA = class java.util.Locale@5028995
+      CANADA_FRENCH = class java.util.Locale@325e9027
+      ROOT = class java.util.Locale@21eaa579
+      PRIVATE_USE_EXTENSION = x
+      UNICODE_LOCALE_EXTENSION = u
+      serialVersionUID = 9149081749638150636
+      DISPLAY_LANGUAGE = 0
+      DISPLAY_COUNTRY = 1
+      DISPLAY_VARIANT = 2
+      DISPLAY_SCRIPT = 3
+      baseLocale = class sun.util.locale.BaseLocale@55312a16
+      localeExtensions = null
+      hashCodeValue = 0
+      defaultLocale = class java.util.Locale@66a8422a
+      defaultDisplayLocale = null
+      defaultFormatLocale = class java.util.Locale@25447146
+      languageTag = null
+      serialPersistentFields = class java.io.ObjectStreamField[6]
+      isoLanguages = null
+      isoCountries = null
+      $assertionsDisabled = true
+    _encoding = "UTF-8"
+    _contentLength = -1
+    _statusCode = 404
+    _connContext = class com.ibm.ws.webcontainer31.osgi.srt.SRTConnectionContext31@a286dfe
+      tc = class com.ibm.websphere.ras.TraceComponent@269888f5
+      nextContext = null
+      nextContext = null
+      _request = class com.ibm.ws.webcontainer31.srt.SRTServletRequest31@5799b435
+      _dispatchContext = class com.ibm.ws.webcontainer.osgi.webapp.WebAppDispatcherContext@59c8f91e
+      _response = class com.ibm.ws.webcontainer31.srt.SRTServletResponse31@422823a
+      logger = class com.ibm.ws.logging.internal.WsLogger@24fee0d7
+      CLASS_NAME = "com.ibm.ws.webcontainer.srt.SRTConnectionContext"
+    outputMethodListener = null
+    _contentType = "text/html;charset=UTF-8"
+    localeDependentDateFormatter = false
+    dateFormat = class java.lang.ThreadLocal@fca6cd7
+      threadLocalHashCode = -565029300
+      nextHashCode = class java.util.concurrent.atomic.AtomicInteger@20c47ed
+      HASH_INCREMENT = 1640531527
+    formatStr = "EEE, dd MMM yyyy HH:mm:ss z"
+    gmtTimeZone = class sun.util.calendar.ZoneInfo@62bc1994
+      UTC_TIME = 0
+      STANDARD_TIME = 1
+      WALL_TIME = 2
+      OFFSET_MASK = 15
+      DST_MASK = 240
+      DST_NSHIFT = 4
+      ABBR_MASK = 3840
+      TRANSITION_NSHIFT = 12
+      gcal = class sun.util.calendar.Gregorian@451965b
+      rawOffset = 0
+      rawOffsetDiff = 0
+      checksum = 0
+      dstSavings = 0
+      transitions = null
+      offsets = null
+      simpleTimeZoneParams = null
+      willGMTOffsetChange = false
+      dirty = false
+      serialVersionUID = 2653134537216586139
+      lastRule = null
+      SHORT = 0
+      LONG = 1
+      ONE_MINUTE = 60000
+      ONE_HOUR = 3600000
+      ONE_DAY = 86400000
+      serialVersionUID = 3581463369166924961
+      NO_TIMEZONE = null
+      ID = "GMT"
+      defaultTimeZone = class sun.util.calendar.ZoneInfo@3237f0a4
+      GMT_ID = "GMT"
+      GMT_ID_LENGTH = 3
+      mainAppContextDefault = null
+      $assertionsDisabled = true
+  WCheadersWritten = true
+  serialVersionUID = -7803345896128328401
+  $$$tc$$$ = class com.ibm.websphere.ras.TraceComponent@223fbdea
+    strings[0] = "TraceComponent[com.ibm.ws.http.channel.outstream.HttpOutputStreamConnectWeb,class com.ibm.ws.http.channel.outstream.HttpOutputStreamConnectWeb,[],null,null]"
+
+Dump of objectArray[1]
+Object type = com.ibm.ws.http.channel.internal.inbound.HttpInboundServiceContextImpl
+  strings[0] = "Message parsed: com.ibm.ws.http.channel.internal.HttpRequestMessageImpl@6ba7f60f"
+  strings[1] = "Host=localhost:9080"
+  strings[2] = "User-Agent=Mozilla/5.0 (Windows NT 10.0; WOW64; rv:52.0) Gecko/20100101 Firefox/52.0"
+  strings[3] = "Accept=*/*"
+  strings[4] = "Accept-Language=en-US,en;q=0.5"
+  strings[5] = "Accept-Encoding=gzip, deflate"
+  strings[6] = "Content-Type=application/x-www-form-urlencoded; charset=UTF-8"
+  strings[7] = "X-Requested-With=XMLHttpRequest"
+  strings[8] = "Referer=http://localhost:9080/SpringTest/users"
+  strings[9] = "Content-Length=39"
+  strings[10] = "Cookie=JSESSIONID=0000TiBt8_JveJa-EwQRq8mNyD5:dea6416d-63b5-48a5-9e0a-616844f067a0"
+  strings[11] = "Connection=keep-alive"
+  strings[12] = "read buffer=PooledWsByteBufferImpl@73fe3d78/2 ID=20 java.nio.DirectByteBuffer[pos=543 lim=543 cap=8192] [WsByteBufferPool@2db16ada/8192]"
+  strings[13] = "ReadBufferSize=32768"
+  strings[14] = "ReadTimeout=60000"
+  strings[15] = "WriteTimeout=60000"
+  strings[16] = "unparsedDataRemaining=0"
+
