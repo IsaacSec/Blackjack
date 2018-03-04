@@ -6,17 +6,16 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c15542f9-55e3-4541-986c-ff698a8341ec" name="Default" comment="">
+    <list default="true" id="c15542f9-55e3-4541-986c-ff698a8341ec" name="Default" comment="Create Room in Lobby">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/controllers/LobbyHandler.java" afterPath="$PROJECT_DIR$/src/controllers/LobbyHandler.java" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Blackjack_war_exploded/WEB-INF/classes/controllers/LobbyHandler.class" afterPath="$PROJECT_DIR$/out/artifacts/Blackjack_war_exploded/WEB-INF/classes/controllers/LobbyHandler.class" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Blackjack_war_exploded/WEB-INF/classes/data/VirtualStorage.class" afterPath="$PROJECT_DIR$/out/artifacts/Blackjack_war_exploded/WEB-INF/classes/data/VirtualStorage.class" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Blackjack_war_exploded/WEB-INF/dispatcher-servlet.xml" afterPath="$PROJECT_DIR$/out/artifacts/Blackjack_war_exploded/WEB-INF/dispatcher-servlet.xml" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Blackjack_war_exploded/WEB-INF/views/lobby.jsp" afterPath="$PROJECT_DIR$/out/artifacts/Blackjack_war_exploded/WEB-INF/views/lobby.jsp" />
+      <change beforePath="$PROJECT_DIR$/out/production/Blackjack/controllers/LobbyHandler.class" afterPath="$PROJECT_DIR$/out/production/Blackjack/controllers/LobbyHandler.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/Blackjack/data/VirtualStorage.class" afterPath="$PROJECT_DIR$/out/production/Blackjack/data/VirtualStorage.class" />
       <change beforePath="$PROJECT_DIR$/src/controllers/SessionManager.java" afterPath="$PROJECT_DIR$/src/controllers/SessionManager.java" />
       <change beforePath="$PROJECT_DIR$/src/data/VirtualStorage.java" afterPath="$PROJECT_DIR$/src/data/VirtualStorage.java" />
-      <change beforePath="$PROJECT_DIR$/src/data/model/Card.java" afterPath="$PROJECT_DIR$/src/data/model/Card.java" />
-      <change beforePath="$PROJECT_DIR$/src/data/model/GameInfo.java" afterPath="$PROJECT_DIR$/src/data/model/GameInfo.java" />
-      <change beforePath="$PROJECT_DIR$/src/data/model/PlayerInfo.java" afterPath="$PROJECT_DIR$/src/data/model/PlayerInfo.java" />
-      <change beforePath="$PROJECT_DIR$/src/data/model/Room.java" afterPath="$PROJECT_DIR$/src/data/model/Room.java" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/dispatcher-servlet.xml" afterPath="$PROJECT_DIR$/web/WEB-INF/dispatcher-servlet.xml" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/views/lobby.jsp" afterPath="$PROJECT_DIR$/web/WEB-INF/views/lobby.jsp" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -28,6 +27,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="SessionManager.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/controllers/SessionManager.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="254">
+              <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+              <folding>
+                <element signature="e#1636#1637#0" expanded="true" />
+                <element signature="e#1694#1695#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="LobbyHandler.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/controllers/LobbyHandler.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -43,17 +55,21 @@
       <file leaf-file-name="VirtualStorage.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/data/VirtualStorage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="248">
-              <caret line="26" column="25" lean-forward="false" selection-start-line="26" selection-start-column="25" selection-end-line="26" selection-end-column="25" />
+            <state relative-caret-position="300">
+              <caret line="27" column="38" lean-forward="false" selection-start-line="27" selection-start-column="38" selection-end-line="27" selection-end-column="38" />
               <folding>
-                <element signature="e#504#505#0" expanded="true" />
-                <element signature="e#559#560#0" expanded="true" />
+                <element signature="e#440#441#0" expanded="true" />
+                <element signature="e#491#492#0" expanded="true" />
+                <element signature="e#544#545#0" expanded="true" />
+                <element signature="e#599#600#0" expanded="true" />
+                <element signature="e#649#650#0" expanded="true" />
+                <element signature="e#694#695#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="lobby.jsp" pinned="false" current-in-tab="true">
+      <file leaf-file-name="lobby.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/WEB-INF/views/lobby.jsp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="306">
@@ -103,13 +119,13 @@
         <option value="$PROJECT_DIR$/Blackjack.iml" />
         <option value="$PROJECT_DIR$/web/WEB-INF/dispatcher-servlet.xml" />
         <option value="$PROJECT_DIR$/src/data/model/PlayerInfo.java" />
-        <option value="$PROJECT_DIR$/src/data/VirtualStorage.java" />
         <option value="$PROJECT_DIR$/src/data/model/Room.java" />
         <option value="$PROJECT_DIR$/src/data/model/Card.java" />
         <option value="$PROJECT_DIR$/src/data/model/GameInfo.java" />
         <option value="$PROJECT_DIR$/src/controllers/LobbyHandler.java" />
-        <option value="$PROJECT_DIR$/src/controllers/SessionManager.java" />
         <option value="$PROJECT_DIR$/web/WEB-INF/views/lobby.jsp" />
+        <option value="$PROJECT_DIR$/src/data/VirtualStorage.java" />
+        <option value="$PROJECT_DIR$/src/controllers/SessionManager.java" />
       </list>
     </option>
   </component>
@@ -126,7 +142,7 @@
     <option name="FILTER_DEBUG" value="true" />
     <option name="CUSTOM_FILTER" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="4">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="width" value="960" />
     <option name="height" value="1037" />
   </component>
@@ -435,7 +451,7 @@
       <workItem from="1520001068544" duration="643000" />
       <workItem from="1520097970596" duration="3006000" />
       <workItem from="1520116637792" duration="23933000" />
-      <workItem from="1520179149968" duration="15786000" />
+      <workItem from="1520179149968" duration="16238000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <created>1520118792951</created>
@@ -465,14 +481,21 @@
       <option name="project" value="LOCAL" />
       <updated>1520182584578</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Create Room in Lobby">
+      <created>1520196710760</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1520196710760</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="43456000" />
+    <option name="totallyTimeSpent" value="43908000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="960" height="1037" extended-state="4" />
+    <frame x="0" y="0" width="1920" height="1037" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -496,7 +519,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32762313" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30729166" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12552084" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -552,7 +575,8 @@
     <MESSAGE value="Model Classe and some implementation" />
     <MESSAGE value="Spring 4.2 libs added" />
     <MESSAGE value="Javax libs problem solved" />
-    <option name="LAST_COMMIT_MESSAGE" value="Javax libs problem solved" />
+    <MESSAGE value="Create Room in Lobby" />
+    <option name="LAST_COMMIT_MESSAGE" value="Create Room in Lobby" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -564,7 +588,8 @@
         <state relative-caret-position="645">
           <caret line="56" column="5" lean-forward="false" selection-start-line="56" selection-start-column="5" selection-end-line="56" selection-end-column="5" />
           <folding>
-            <element signature="imports" expanded="false" />
+            <element signature="e#1636#1637#0" expanded="true" />
+            <element signature="e#1694#1695#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -634,7 +659,8 @@
         <state relative-caret-position="240">
           <caret line="18" column="22" lean-forward="false" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
           <folding>
-            <element signature="imports" expanded="false" />
+            <element signature="e#1636#1637#0" expanded="true" />
+            <element signature="e#1694#1695#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -668,7 +694,8 @@
         <state relative-caret-position="300">
           <caret line="22" column="21" lean-forward="false" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
           <folding>
-            <element signature="imports" expanded="false" />
+            <element signature="e#1636#1637#0" expanded="true" />
+            <element signature="e#1694#1695#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -913,24 +940,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/data/VirtualStorage.java">
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/views/lobby.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="248">
-          <caret line="26" column="25" lean-forward="false" selection-start-line="26" selection-start-column="25" selection-end-line="26" selection-end-column="25" />
-          <folding>
-            <element signature="e#504#505#0" expanded="true" />
-            <element signature="e#559#560#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/controllers/SessionManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="305">
-          <caret line="23" column="53" lean-forward="false" selection-start-line="23" selection-start-column="53" selection-end-line="23" selection-end-column="53" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
+        <state relative-caret-position="306">
+          <caret line="42" column="35" lean-forward="false" selection-start-line="42" selection-start-column="35" selection-end-line="42" selection-end-column="35" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -944,11 +958,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/views/lobby.jsp">
+    <entry file="file://$PROJECT_DIR$/src/data/VirtualStorage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="42" column="35" lean-forward="false" selection-start-line="42" selection-start-column="35" selection-end-line="42" selection-end-column="35" />
-          <folding />
+        <state relative-caret-position="300">
+          <caret line="27" column="38" lean-forward="false" selection-start-line="27" selection-start-column="38" selection-end-line="27" selection-end-column="38" />
+          <folding>
+            <element signature="e#440#441#0" expanded="true" />
+            <element signature="e#491#492#0" expanded="true" />
+            <element signature="e#544#545#0" expanded="true" />
+            <element signature="e#599#600#0" expanded="true" />
+            <element signature="e#649#650#0" expanded="true" />
+            <element signature="e#694#695#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/controllers/SessionManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="254">
+          <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+          <folding>
+            <element signature="e#1636#1637#0" expanded="true" />
+            <element signature="e#1694#1695#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

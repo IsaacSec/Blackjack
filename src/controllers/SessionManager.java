@@ -31,6 +31,7 @@ public class SessionManager {
         ModelAndView mav;
 
         if ( isNotUsed (nickname) ) {
+            mav = new ModelAndView("lobby");
 
             User user = new User(
                     nickname,
@@ -39,9 +40,7 @@ public class SessionManager {
                     );
 
             session.setAttribute("user", user);
-            VirtualStorage.users.put(nickname, user);   // Note: the reference may cause problems
-
-            mav = new ModelAndView("lobby");
+            VirtualStorage.addNewUser(user);  // Note: the reference may cause problems
 
         } else {
             mav = new ModelAndView("login");
@@ -55,7 +54,7 @@ public class SessionManager {
     }
 
     public boolean isNotUsed(String nickname){
-        return !VirtualStorage.users.containsKey(nickname);
+        return !VirtualStorage.isInUsers(nickname);
     }
 
     public static String generateToken(){

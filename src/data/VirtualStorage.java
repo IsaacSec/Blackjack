@@ -8,20 +8,24 @@ import java.util.Hashtable;
 
 public class VirtualStorage {
 
-    public static Hashtable <String,User> users = new Hashtable<>();
-    public static Hashtable <String,Room> rooms = new Hashtable<>();
+    private static Hashtable <String,User> users = new Hashtable<>();
+    private static Hashtable <String,Room> rooms = new Hashtable<>();
 
     public static String ROOMS_JSON_FORMAT =
         "{" +
             "\"%s\":[%s]" +
         "}";
 
-    public static void addNewUser(String nickname){
-
+    public static void addNewUser(User user){
+        users.put(user.getNickname(), user);
     }
 
     public static void addNewRoom(String roomName){
         rooms.put(roomName, new Room(roomName));
+    }
+
+    public static boolean isInUsers(String key){
+        return users.containsKey(key);
     }
 
     public static String allRoomsToJSON(){

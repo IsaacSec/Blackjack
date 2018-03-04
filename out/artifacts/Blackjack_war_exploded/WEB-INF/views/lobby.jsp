@@ -30,31 +30,48 @@
         }
         
         function showRoomsTable(xml) {
-
+            console.log(xml.responseText);
             var jsonResponse = JSON.parse(xml.responseText);
+
             var rooms = jsonResponse['rooms'];
-            var htmlTable = "<form  method=\"post\"> <table class='table' border='1'> <thead><tr><th> Room Number</th><th> Room Name</th><th> # Players</th><th>Join Room</th></tr></thead><tbody>";
+            var htmlTable =
+                "<table class='table' border='1'>" +
+                    "<thead>" +
+                        "<tr>" +
+                            "<th>  #  </th>" +
+                            "<th>  Room Name  </th>" +
+                            "<th>  Players  </th>" +
+                            "<th>  Join Room  </th></tr>" +
+                    "</thead>" +
+                "<tbody>";
 
             for (var i = 0; i < rooms.length; i++) {
-                htmlTable += "<tr><td> <input class='form-control-plaintext' name='rowNumber' readonly value='"+i+"'/></td><td> <input class='form-control-plaintext' readonly value='"+rooms[i].roomID +"'/></td><td>"+rooms[i].numberOfPlayers +"</td><td><div class=\"form-group mx-sm-3 mb-2\"><button type=\"submit\"  formaction=\"/BlackJack/joinRoom?roomID="+rooms[i].roomID+" \" class=\"btn btn-primary mb-2\" >Unirse</button></td></div></tr> " ;
+                htmlTable +=
+                    "<tr>" +
+                        "<td>"+ i +"</td>" +
+                        "<td>"+ rooms[i].roomName +"</td>" +
+                        "<td>"+ rooms[i].playerCounter +"</td>" +
+                        "<td><button type='text' onclick=''>Join</button></td>" +
+                    "</tr> " ;
             }
 
             htmlTable += "</tbody></table></form>";
-            document.getElementById("table").innerHTML = htmlTable;
+            document.getElementById("roomTable").innerHTML = htmlTable;
+
         }
         
         function createRoom() {
 
             var input = document.getElementById("roomName");
-            var roomName = input.getAttribute("value");
+            var roomName = input.value;
 
             var xmlhttp = new XMLHttpRequest();
-            var url = "/createRoom&roomName="+roomName;
+            var url = "/createRoom?roomName="+roomName;
 
             xmlhttp.onreadystatechange = function () {
                 if (this.readyState == 4 && this.status == 200){
                     //show rooms table
-                    showRoomsTable(this);
+                    console.log("Lobby creation request sent")
                 }
             };
 
@@ -74,6 +91,11 @@
     <br>
     Room Name:
     <input type="text" id="roomName">
-    <button onclick="">Create</button>
+    <button onclick="createRoom()">Create</button>
+    <br>
+    <br>
+    <div id="roomTable">
+
+    </div>
 </body>
 </html>
