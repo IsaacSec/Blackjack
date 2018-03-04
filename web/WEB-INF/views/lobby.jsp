@@ -93,6 +93,10 @@
     <input type="text" id="roomName">
     <button onclick="createRoom()">Create</button>
     <br>
+    <form action="/signOut" method="POST">
+        <button type="submit">Enter</button>
+    </form>
+    <br>
     <br>
     <div id="roomTable">
 

@@ -18,6 +18,11 @@ public class VirtualStorage {
 
     public static void addNewUser(User user){
         users.put(user.getNickname(), user);
+        System.out.println("Users: "+users.toString());
+    }
+
+    public static void removeUser(String nickname){
+        users.remove(nickname);
     }
 
     public static void addNewRoom(String roomName){

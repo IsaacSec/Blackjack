@@ -53,16 +53,27 @@ public class SessionManager {
         return mav;
     }
 
+    @RequestMapping("/signOut")
+    public ModelAndView exitFromLobby(HttpSession session){
+
+        User user = (User) session.getAttribute("user");
+        VirtualStorage.removeUser(user.getNickname());
+
+        ModelAndView mav = new ModelAndView("login");
+        return mav;
+    }
+
     public boolean isNotUsed(String nickname){
         return !VirtualStorage.isInUsers(nickname);
     }
 
     public static String generateToken(){
+        String symbols = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
         String token = "";
 
         for (int i = 0; i <TOKEN_LENGTH ; i++) {
-            int randomInt = (int) (Math.random() * TOKEN_LENGTH)-1;
-            token += (char) randomInt;
+            int randomInt = (int) (Math.random() * symbols.length());
+            token += symbols.charAt(randomInt);
         }
 
         return token;
