@@ -2,7 +2,6 @@
   <library name="Spring-4.2">
     <CLASSES>
       <root url="jar://$PROJECT_DIR$/web/WEB-INF/lib/spring-4.2/aopalliance-1.0.jar!/" />
-      <root url="jar://$PROJECT_DIR$/web/WEB-INF/lib/spring-4.2/jstl.jar!/" />
       <root url="jar://$PROJECT_DIR$/web/WEB-INF/lib/spring-4.2/mysql-connector-java-5.1.41-bin.jar!/" />
       <root url="jar://$PROJECT_DIR$/web/WEB-INF/lib/spring-4.2/org.apache.commons.logging_1.0.4.v201101211617.jar!/" />
       <root url="jar://$PROJECT_DIR$/web/WEB-INF/lib/spring-4.2/org.springframework.aop_4.2.3.20151116-RELEASE.jar!/" />
@@ -17,6 +16,7 @@
       <root url="jar://$PROJECT_DIR$/web/WEB-INF/lib/spring-4.2/org.springframework.transaction_4.2.3.20151116-RELEASE.jar!/" />
       <root url="jar://$PROJECT_DIR$/web/WEB-INF/lib/spring-4.2/org.springframework.web.servlet_4.2.3.20151116-RELEASE.jar!/" />
       <root url="jar://$PROJECT_DIR$/web/WEB-INF/lib/spring-4.2/org.springframework.web_4.2.3.20151116-RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/web/WEB-INF/lib/spring-4.2/jstl-1.2.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />

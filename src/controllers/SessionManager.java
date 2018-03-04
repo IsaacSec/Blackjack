@@ -10,17 +10,13 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.SessionAttributes;
 import org.springframework.web.servlet.ModelAndView;
+import javax.servlet.http.HttpSession;
 
 @Controller
 @SessionAttributes("user")
 public class SessionManager {
 
     public static final int TOKEN_LENGTH = 32;
-
-    @ModelAttribute("user")
-    public User setUpUserForm() {
-        return new User(null, null, null);
-    }
 
 
     @RequestMapping("/")
@@ -30,15 +26,21 @@ public class SessionManager {
     }
 
     @RequestMapping("/signIn")
-    public ModelAndView signIn(@ModelAttribute("user") User user,
+    public ModelAndView signIn(HttpSession session,
                                @RequestParam("nickname") String nickname){
         ModelAndView mav;
 
         if ( isNotUsed (nickname) ) {
-            user.setNickname(nickname);
-            user.setToken(generateToken());
 
+            User user = new User(
+                    nickname,
+                    generateToken(),
+                    null
+                    );
+
+            session.setAttribute("user", user);
             VirtualStorage.users.put(nickname, user);   // Note: the reference may cause problems
+
             mav = new ModelAndView("lobby");
 
         } else {

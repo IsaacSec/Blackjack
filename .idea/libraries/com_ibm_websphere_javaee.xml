@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="com.ibm.websphere.javaee">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/web/WEB-INF/lib/ibm/com.ibm.websphere.javaee.ejb.3.1_1.0.15.jar!/" />
+      <root url="jar://$PROJECT_DIR$/web/WEB-INF/lib/ibm/com.ibm.websphere.javaee.jsp.2.3_1.0.15.jar!/" />
+      <root url="jar://$PROJECT_DIR$/web/WEB-INF/lib/ibm/com.ibm.websphere.javaee.servlet.3.0_1.0.15.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

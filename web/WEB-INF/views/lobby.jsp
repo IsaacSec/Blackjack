@@ -5,19 +5,15 @@
   Time: 5:29 PM
   To change this template use File | Settings | File Templates.
 --%>
-<%@ page contentType="text/html;charset=UTF-8" language="java" %>
-<%@taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
-<%@ page session="true"%>
+<%@ page contentType="text/html;charset=UTF-8" language="java" session="true"%>
 <html>
 <head>
     <title>iSac Lobby</title>
 </head>
 <body>
-
     <%
-        ;
+        User user = (User) session.getAttribute("user");
     %>
-
     <script>
         
         function load() {
@@ -71,7 +67,7 @@
     
     </script>
 
-    Welcome to casino
+    Welcome to casino <%=user.getNickname()%>
     <br>
     <br>
     Create Room

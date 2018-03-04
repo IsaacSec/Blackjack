@@ -22,8 +22,7 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" exported="" scope="PROVIDED" name="WebSphere 16.0.0.41" level="application_server_libraries" />
-    <orderEntry type="library" name="Spring" level="project" />
-    <orderEntry type="library" name="Spring-4.2" level="project" />
+    <orderEntry type="library" exported="" name="Spring-4.2" level="project" />
+    <orderEntry type="library" exported="" name="com.ibm.websphere.javaee" level="project" />
   </component>
 </module>
