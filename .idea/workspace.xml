@@ -7,8 +7,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c15542f9-55e3-4541-986c-ff698a8341ec" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/WEB-INF/views/game.jsp" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/data/VirtualStorage.java" afterPath="$PROJECT_DIR$/src/data/VirtualStorage.java" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Blackjack_war_exploded/WEB-INF/classes/data/VirtualStorage.class" afterPath="$PROJECT_DIR$/out/artifacts/Blackjack_war_exploded/WEB-INF/classes/data/VirtualStorage.class" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Blackjack_war_exploded/WEB-INF/views/lobby.jsp" afterPath="$PROJECT_DIR$/out/artifacts/Blackjack_war_exploded/WEB-INF/views/lobby.jsp" />
+      <change beforePath="$PROJECT_DIR$/out/production/Blackjack/data/VirtualStorage.class" afterPath="$PROJECT_DIR$/out/production/Blackjack/data/VirtualStorage.class" />
+      <change beforePath="$PROJECT_DIR$/src/controllers/GameManager.java" afterPath="$PROJECT_DIR$/src/controllers/GameManager.java" />
       <change beforePath="$PROJECT_DIR$/web/WEB-INF/views/lobby.jsp" afterPath="$PROJECT_DIR$/web/WEB-INF/views/lobby.jsp" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -24,7 +28,7 @@
       <file leaf-file-name="SessionManager.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/controllers/SessionManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
+            <state relative-caret-position="642">
               <caret line="59" column="0" lean-forward="false" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
               <folding>
                 <element signature="e#1923#1924#0" expanded="true" />
@@ -34,11 +38,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="VirtualStorage.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="VirtualStorage.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/data/VirtualStorage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="27" column="5" lean-forward="false" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
+            <state relative-caret-position="405">
+              <caret line="31" column="5" lean-forward="false" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
               <folding>
                 <element signature="e#824#825#0" expanded="true" />
                 <element signature="e#879#880#0" expanded="true" />
@@ -49,11 +53,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LobbyHandler.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/controllers/LobbyHandler.java">
+      <file leaf-file-name="game.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/WEB-INF/views/game.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="218">
-              <caret line="16" column="5" lean-forward="false" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+            <state relative-caret-position="195">
+              <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GameManager.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/controllers/GameManager.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="13" column="60" lean-forward="false" selection-start-line="13" selection-start-column="60" selection-end-line="13" selection-end-column="60" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -61,11 +75,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="lobby.jsp" pinned="false" current-in-tab="false">
+      <file leaf-file-name="lobby.jsp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/web/WEB-INF/views/lobby.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="441">
-              <caret line="96" column="34" lean-forward="false" selection-start-line="96" selection-start-column="34" selection-end-line="96" selection-end-column="34" />
+            <state relative-caret-position="143">
+              <caret line="88" column="34" lean-forward="false" selection-start-line="88" selection-start-column="34" selection-end-line="88" selection-end-column="34" />
               <folding />
             </state>
           </provider>
@@ -87,9 +101,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="spring-beans.schema" />
-        <option value="Jsp File" />
         <option value="Class" />
         <option value="Enum" />
+        <option value="Jsp File" />
       </list>
     </option>
   </component>
@@ -126,8 +140,10 @@
         <option value="$PROJECT_DIR$/src/data/model/GameInfo.java" />
         <option value="$PROJECT_DIR$/src/controllers/LobbyHandler.java" />
         <option value="$PROJECT_DIR$/src/controllers/SessionManager.java" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/views/lobby.jsp" />
         <option value="$PROJECT_DIR$/src/data/VirtualStorage.java" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/views/game.jsp" />
+        <option value="$PROJECT_DIR$/src/controllers/GameManager.java" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/views/lobby.jsp" />
       </list>
     </option>
   </component>
@@ -431,7 +447,7 @@
       <workItem from="1520001068544" duration="643000" />
       <workItem from="1520097970596" duration="3006000" />
       <workItem from="1520116637792" duration="23933000" />
-      <workItem from="1520179149968" duration="17887000" />
+      <workItem from="1520179149968" duration="20705000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <created>1520118792951</created>
@@ -482,11 +498,18 @@
       <option name="project" value="LOCAL" />
       <updated>1520198289965</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="SignOut implemented">
+      <created>1520198827278</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1520198827278</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45557000" />
+    <option name="totallyTimeSpent" value="48375000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="960" height="1037" extended-state="4" />
@@ -572,7 +595,8 @@
     <MESSAGE value="Create Room in Lobby" />
     <MESSAGE value="VirtualStorage encapsulation" />
     <MESSAGE value="Token generation fixed" />
-    <option name="LAST_COMMIT_MESSAGE" value="Token generation fixed" />
+    <MESSAGE value="SignOut implemented" />
+    <option name="LAST_COMMIT_MESSAGE" value="SignOut implemented" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -595,7 +619,7 @@
         <state relative-caret-position="330">
           <caret line="26" column="29" lean-forward="false" selection-start-line="26" selection-start-column="29" selection-end-line="26" selection-end-column="29" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -728,22 +752,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/views/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/views/GeneralView.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="4" lean-forward="false" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/data/model/User.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -762,14 +770,6 @@
             <element signature="e#677#678#0" expanded="false" />
             <element signature="e#713#714#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/controllers/GameManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -936,27 +936,56 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/views/lobby.jsp">
+    <entry file="file://$PROJECT_DIR$/src/controllers/LobbyHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="441">
-          <caret line="96" column="34" lean-forward="false" selection-start-line="96" selection-start-column="34" selection-end-line="96" selection-end-column="34" />
+        <state relative-caret-position="278">
+          <caret line="20" column="70" lean-forward="true" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="70" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/views/game.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/controllers/LobbyHandler.java">
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/views/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="218">
-          <caret line="16" column="5" lean-forward="false" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/views/GeneralView.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="4" lean-forward="false" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/data/VirtualStorage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="31" column="5" lean-forward="false" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#824#825#0" expanded="true" />
+            <element signature="e#879#880#0" expanded="true" />
+            <element signature="e#929#930#0" expanded="true" />
+            <element signature="e#974#975#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/controllers/SessionManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
+        <state relative-caret-position="642">
           <caret line="59" column="0" lean-forward="false" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
           <folding>
             <element signature="e#1923#1924#0" expanded="true" />
@@ -965,16 +994,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/data/VirtualStorage.java">
+    <entry file="file://$PROJECT_DIR$/src/controllers/GameManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="27" column="5" lean-forward="false" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
+        <state relative-caret-position="195">
+          <caret line="13" column="60" lean-forward="false" selection-start-line="13" selection-start-column="60" selection-end-line="13" selection-end-column="60" />
           <folding>
-            <element signature="e#824#825#0" expanded="true" />
-            <element signature="e#879#880#0" expanded="true" />
-            <element signature="e#929#930#0" expanded="true" />
-            <element signature="e#974#975#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/views/lobby.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="143">
+          <caret line="88" column="34" lean-forward="false" selection-start-line="88" selection-start-column="34" selection-end-line="88" selection-end-column="34" />
+          <folding />
         </state>
       </provider>
     </entry>

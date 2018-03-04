@@ -46,12 +46,18 @@
                 "<tbody>";
 
             for (var i = 0; i < rooms.length; i++) {
+                var joinUrl = "\"/join?roomName="+rooms[i].roomName+"\"";
+                console.log(joinUrl);
                 htmlTable +=
                     "<tr>" +
                         "<td>"+ i +"</td>" +
                         "<td>"+ rooms[i].roomName +"</td>" +
                         "<td>"+ rooms[i].playerCounter +"</td>" +
-                        "<td><button type='text' onclick=''>Join</button></td>" +
+                        "<td>" +
+                            "<form action="+joinUrl+" method=\"POST\">\n" +
+                                "<button type=\"submit\">Join</button>\n" +
+                            "</form>" +
+                        "</td>" +
                     "</tr> " ;
             }
 
@@ -80,7 +86,7 @@
         }
         
         load();
-        window.setInterval(load, 1000);
+        window.setInterval(load, 10000);
     
     </script>
 
@@ -94,7 +100,7 @@
     <button onclick="createRoom()">Create</button>
     <br>
     <form action="/signOut" method="POST">
-        <button type="submit">Enter</button>
+        <button type="submit">Exit</button>
     </form>
     <br>
     <br>
