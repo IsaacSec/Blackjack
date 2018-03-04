@@ -8,7 +8,7 @@
           <element id="module-output" name="Blackjack" />
         </element>
         <element id="directory" name="lib">
-          <element id="library" level="project" name="Spring" />
+          <element id="library" level="project" name="Spring-4.2" />
         </element>
       </element>
     </root>

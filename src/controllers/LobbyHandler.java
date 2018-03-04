@@ -16,11 +16,19 @@ public class LobbyHandler {
     }
 
     @RequestMapping(value = "/createRoom", produces = "application/json")
-    @ResponseBody
-    public String createRoom(@RequestParam("roomName") String roomName){
+    public void createRoom(@RequestParam("roomName") String roomName){
 
-        return "";
+
 
     }
 
+    @RequestMapping(value = "/getRooms", produces = "application/json")
+    @ResponseBody
+    public String createRoom(){
+
+        String json = "";
+
+        return json;
+
+    }
 }

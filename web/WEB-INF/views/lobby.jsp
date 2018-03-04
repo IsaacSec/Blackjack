@@ -1,4 +1,4 @@
-<%--
+<%@ page import="data.model.User" %><%--
   Created by IntelliJ IDEA.
   User: isaac
   Date: 3/3/18
@@ -6,11 +6,17 @@
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
+<%@ page session="true"%>
 <html>
 <head>
     <title>iSac Lobby</title>
 </head>
 <body>
+
+    <%
+        ;
+    %>
 
     <script>
         
