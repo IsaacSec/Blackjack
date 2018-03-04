@@ -23,6 +23,9 @@
       <root url="jar://$PROJECT_DIR$/web/WEB-INF/lib/spring-webmvc-4.3.14.RELEASE.jar!/" />
       <root url="jar://$PROJECT_DIR$/web/WEB-INF/lib/spring-webmvc-portlet-4.3.14.RELEASE.jar!/" />
       <root url="jar://$PROJECT_DIR$/web/WEB-INF/lib/spring-websocket-4.3.14.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/web/WEB-INF/lib/jstl.jar!/" />
+      <root url="jar://$PROJECT_DIR$/web/WEB-INF/lib/mysql-connector-java-5.1.41-bin.jar!/" />
+      <root url="jar://$PROJECT_DIR$/web/WEB-INF/lib/org.apache.commons.logging_1.0.4.v201101211617.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />
