@@ -9,6 +9,13 @@ public class PlayerInfo {
     private PlayerState state;
     private Vector<Card> cards;
 
+    private static String JSON_FORMAT =
+            "{" +
+                "\"%s\":\"%s\"," +
+                "\"%s\":\"%s\"," +
+                "\"%s\":[%s]" +
+            "}";
+
     public String getNickname() {
         return nickname;
     }
@@ -23,5 +30,26 @@ public class PlayerInfo {
 
     public void setCards(Vector<Card> cards) {
         this.cards = cards;
+    }
+
+    private String getJsonFromCards(){
+        String jsonCards = "";
+
+        for (Card card : cards) {
+            jsonCards += card.toJSON();
+        }
+
+        return jsonCards;
+    }
+
+    public String toJSON(){
+        String json = ""+JSON_FORMAT;
+
+        return String.format(
+                json,
+                "nickname", nickname,
+                "state", state,
+                "cards", getJsonFromCards()
+            );
     }
 }

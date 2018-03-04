@@ -10,6 +10,21 @@ public class GameInfo {
     private Vector<Card> availableCards;
     private Vector<PlayerInfo> playersInfo;
 
+    private static String JSON_FORMAT =
+        "{" +
+            "\"%s\":%s," +
+            "\"%s\":\"%s\"," +
+            "\"%s\":[%s]," +
+            "\"%s\":[%s]" +
+        "}";
+
+    public GameInfo() {
+        currentTurn = 0;
+        state = GameState.READY;
+        availableCards = Card.getFullDeck();
+        playersInfo = new Vector<>();
+    }
+
     public int getCurrentTurn() {
         return currentTurn;
     }
@@ -40,5 +55,38 @@ public class GameInfo {
 
     public void setPlayersInfo(Vector<PlayerInfo> playersInfo) {
         this.playersInfo = playersInfo;
+    }
+
+    private String getJsonFromCards(){
+        String jsonCards = "";
+
+        for (Card card : availableCards) {
+            jsonCards += card.toJSON();
+        }
+
+        return jsonCards;
+    }
+
+    private String getJsonFromPlayers(){
+        String jsonPlayers = "";
+
+        for (PlayerInfo player : playersInfo) {
+            jsonPlayers += player.toJSON();
+        }
+
+        return jsonPlayers;
+    }
+
+    public String toJSON(){
+
+        String json = ""+JSON_FORMAT;
+
+        return String.format(
+            json,
+            "currentTurn",currentTurn,
+            "state",state,
+            "availableCards", getJsonFromCards(),
+            "playersInfo", getJsonFromPlayers()
+        );
     }
 }

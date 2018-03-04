@@ -17,6 +17,12 @@
     <bean id="SessionManager" class="controllers.SessionManager">
     </bean>
 
+    <bean id="LobbyHandler" class="controllers.LobbyHandler">
+    </bean>
+
+    <bean id="GameManager" class="controllers.GameManager">
+    </bean>
+
     <bean id="viewResolver"
           class="org.springframework.web.servlet.view.UrlBasedViewResolver">
         <property name="viewClass"

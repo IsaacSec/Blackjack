@@ -7,70 +7,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c15542f9-55e3-4541-986c-ff698a8341ec" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/com_ibm_websphere_javaee.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/WEB-INF/lib/ibm/com.ibm.websphere.javaee.ejb.3.1_1.0.15.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/WEB-INF/lib/ibm/com.ibm.websphere.javaee.jsp.2.3_1.0.15.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/WEB-INF/lib/ibm/com.ibm.websphere.javaee.servlet.3.0_1.0.15.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/WEB-INF/lib/spring-4.2/jstl-1.2.jar" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Spring.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Spring_4_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Spring_4_2.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/Blackjack.iml" afterPath="$PROJECT_DIR$/Blackjack.iml" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Blackjack_war_exploded/WEB-INF/classes/controllers/LobbyHandler.class" afterPath="$PROJECT_DIR$/out/artifacts/Blackjack_war_exploded/WEB-INF/classes/controllers/LobbyHandler.class" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Blackjack_war_exploded/WEB-INF/classes/controllers/SessionManager.class" afterPath="$PROJECT_DIR$/out/artifacts/Blackjack_war_exploded/WEB-INF/classes/controllers/SessionManager.class" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Blackjack_war_exploded/WEB-INF/classes/data/VirtualStorage.class" afterPath="$PROJECT_DIR$/out/artifacts/Blackjack_war_exploded/WEB-INF/classes/data/VirtualStorage.class" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Blackjack_war_exploded/WEB-INF/lib/commons-logging-1.2.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Blackjack_war_exploded/WEB-INF/lib/jstl.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Blackjack_war_exploded/WEB-INF/lib/spring-aop-4.3.14.RELEASE.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Blackjack_war_exploded/WEB-INF/lib/spring-aspects-4.3.14.RELEASE.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Blackjack_war_exploded/WEB-INF/lib/spring-beans-4.3.14.RELEASE.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Blackjack_war_exploded/WEB-INF/lib/spring-context-4.3.14.RELEASE.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Blackjack_war_exploded/WEB-INF/lib/spring-context-support-4.3.14.RELEASE.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Blackjack_war_exploded/WEB-INF/lib/spring-core-4.3.14.RELEASE.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Blackjack_war_exploded/WEB-INF/lib/spring-expression-4.3.14.RELEASE.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Blackjack_war_exploded/WEB-INF/lib/spring-instrument-4.3.14.RELEASE.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Blackjack_war_exploded/WEB-INF/lib/spring-instrument-tomcat-4.3.14.RELEASE.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Blackjack_war_exploded/WEB-INF/lib/spring-jdbc-4.3.14.RELEASE.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Blackjack_war_exploded/WEB-INF/lib/spring-jms-4.3.14.RELEASE.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Blackjack_war_exploded/WEB-INF/lib/spring-messaging-4.3.14.RELEASE.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Blackjack_war_exploded/WEB-INF/lib/spring-orm-4.3.14.RELEASE.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Blackjack_war_exploded/WEB-INF/lib/spring-oxm-4.3.14.RELEASE.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Blackjack_war_exploded/WEB-INF/lib/spring-test-4.3.14.RELEASE.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Blackjack_war_exploded/WEB-INF/lib/spring-tx-4.3.14.RELEASE.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Blackjack_war_exploded/WEB-INF/lib/spring-web-4.3.14.RELEASE.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Blackjack_war_exploded/WEB-INF/lib/spring-webmvc-4.3.14.RELEASE.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Blackjack_war_exploded/WEB-INF/lib/spring-webmvc-portlet-4.3.14.RELEASE.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Blackjack_war_exploded/WEB-INF/lib/spring-websocket-4.3.14.RELEASE.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Blackjack_war_exploded/WEB-INF/views/lobby.jsp" afterPath="$PROJECT_DIR$/out/artifacts/Blackjack_war_exploded/WEB-INF/views/lobby.jsp" />
-      <change beforePath="$PROJECT_DIR$/out/production/Blackjack/controllers/LobbyHandler.class" afterPath="$PROJECT_DIR$/out/production/Blackjack/controllers/LobbyHandler.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/Blackjack/controllers/SessionManager.class" afterPath="$PROJECT_DIR$/out/production/Blackjack/controllers/SessionManager.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/Blackjack/data/VirtualStorage.class" afterPath="$PROJECT_DIR$/out/production/Blackjack/data/VirtualStorage.class" />
+      <change beforePath="$PROJECT_DIR$/src/controllers/LobbyHandler.java" afterPath="$PROJECT_DIR$/src/controllers/LobbyHandler.java" />
       <change beforePath="$PROJECT_DIR$/src/controllers/SessionManager.java" afterPath="$PROJECT_DIR$/src/controllers/SessionManager.java" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/lib/aopalliance-1.0.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/lib/commons-logging-1.2.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/lib/jstl.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/lib/mysql-connector-java-5.1.41-bin.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/lib/org.apache.commons.logging_1.0.4.v201101211617.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/lib/spring-aop-4.3.14.RELEASE.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/lib/spring-aspects-4.3.14.RELEASE.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/lib/spring-beans-4.3.14.RELEASE.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/lib/spring-context-4.3.14.RELEASE.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/lib/spring-context-support-4.3.14.RELEASE.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/lib/spring-core-4.3.14.RELEASE.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/lib/spring-expression-4.3.14.RELEASE.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/lib/spring-instrument-4.3.14.RELEASE.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/lib/spring-instrument-tomcat-4.3.14.RELEASE.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/lib/spring-jdbc-4.3.14.RELEASE.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/lib/spring-jms-4.3.14.RELEASE.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/lib/spring-messaging-4.3.14.RELEASE.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/lib/spring-orm-4.3.14.RELEASE.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/lib/spring-oxm-4.3.14.RELEASE.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/lib/spring-test-4.3.14.RELEASE.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/lib/spring-tx-4.3.14.RELEASE.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/lib/spring-web-4.3.14.RELEASE.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/lib/spring-webmvc-4.3.14.RELEASE.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/lib/spring-webmvc-portlet-4.3.14.RELEASE.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/lib/spring-websocket-4.3.14.RELEASE.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/data/VirtualStorage.java" afterPath="$PROJECT_DIR$/src/data/VirtualStorage.java" />
+      <change beforePath="$PROJECT_DIR$/src/data/model/Card.java" afterPath="$PROJECT_DIR$/src/data/model/Card.java" />
+      <change beforePath="$PROJECT_DIR$/src/data/model/GameInfo.java" afterPath="$PROJECT_DIR$/src/data/model/GameInfo.java" />
+      <change beforePath="$PROJECT_DIR$/src/data/model/PlayerInfo.java" afterPath="$PROJECT_DIR$/src/data/model/PlayerInfo.java" />
+      <change beforePath="$PROJECT_DIR$/src/data/model/Room.java" afterPath="$PROJECT_DIR$/src/data/model/Room.java" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/dispatcher-servlet.xml" afterPath="$PROJECT_DIR$/web/WEB-INF/dispatcher-servlet.xml" />
       <change beforePath="$PROJECT_DIR$/web/WEB-INF/views/lobby.jsp" afterPath="$PROJECT_DIR$/web/WEB-INF/views/lobby.jsp" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -83,27 +28,26 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="SessionManager.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/controllers/SessionManager.java">
+      <file leaf-file-name="LobbyHandler.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/controllers/LobbyHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="80">
-              <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+            <state relative-caret-position="435">
+              <caret line="29" column="46" lean-forward="false" selection-start-line="29" selection-start-column="46" selection-end-line="29" selection-end-column="46" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1686#1687#0" expanded="true" />
-                <element signature="e#1752#1753#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LobbyHandler.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/controllers/LobbyHandler.java">
+      <file leaf-file-name="VirtualStorage.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/data/VirtualStorage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="26" column="29" lean-forward="false" selection-start-line="26" selection-start-column="29" selection-end-line="26" selection-end-column="29" />
+            <state relative-caret-position="248">
+              <caret line="26" column="25" lean-forward="false" selection-start-line="26" selection-start-column="25" selection-end-line="26" selection-end-column="25" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#504#505#0" expanded="true" />
+                <element signature="e#559#560#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -112,41 +56,9 @@
       <file leaf-file-name="lobby.jsp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/web/WEB-INF/views/lobby.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="579">
-              <caret line="59" column="0" lean-forward="false" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
+            <state relative-caret-position="306">
+              <caret line="42" column="35" lean-forward="false" selection-start-line="42" selection-start-column="35" selection-end-line="42" selection-end-column="35" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="dispatcher-servlet.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/WEB-INF/dispatcher-servlet.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="22" column="70" lean-forward="false" selection-start-line="22" selection-start-column="70" selection-end-line="22" selection-end-column="70" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Blackjack.iml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Blackjack.iml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="24" column="79" lean-forward="false" selection-start-line="24" selection-start-column="79" selection-end-line="24" selection-end-column="79" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="VirtualStorage.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/data/VirtualStorage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -187,15 +99,15 @@
         <option value="$PROJECT_DIR$/src/data/model/states/RoomState.java" />
         <option value="$PROJECT_DIR$/src/data/model/GameStats.java" />
         <option value="$PROJECT_DIR$/src/data/model/states/GameState.java" />
-        <option value="$PROJECT_DIR$/src/data/model/Card.java" />
         <option value="$PROJECT_DIR$/src/data/model/states/PlayerState.java" />
-        <option value="$PROJECT_DIR$/src/data/model/PlayerInfo.java" />
-        <option value="$PROJECT_DIR$/src/data/model/GameInfo.java" />
-        <option value="$PROJECT_DIR$/src/data/model/Room.java" />
-        <option value="$PROJECT_DIR$/src/data/VirtualStorage.java" />
-        <option value="$PROJECT_DIR$/src/controllers/LobbyHandler.java" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/dispatcher-servlet.xml" />
         <option value="$PROJECT_DIR$/Blackjack.iml" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/dispatcher-servlet.xml" />
+        <option value="$PROJECT_DIR$/src/data/model/PlayerInfo.java" />
+        <option value="$PROJECT_DIR$/src/data/VirtualStorage.java" />
+        <option value="$PROJECT_DIR$/src/data/model/Room.java" />
+        <option value="$PROJECT_DIR$/src/data/model/Card.java" />
+        <option value="$PROJECT_DIR$/src/data/model/GameInfo.java" />
+        <option value="$PROJECT_DIR$/src/controllers/LobbyHandler.java" />
         <option value="$PROJECT_DIR$/src/controllers/SessionManager.java" />
         <option value="$PROJECT_DIR$/web/WEB-INF/views/lobby.jsp" />
       </list>
@@ -214,7 +126,7 @@
     <option name="FILTER_DEBUG" value="true" />
     <option name="CUSTOM_FILTER" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="4">
     <option name="width" value="960" />
     <option name="height" value="1037" />
   </component>
@@ -242,17 +154,6 @@
             <path>
               <item name="Blackjack" type="b2602c69:ProjectViewProjectNode" />
               <item name="Blackjack" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Blackjack" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Blackjack" type="462c0819:PsiDirectoryNode" />
-              <item name=".idea" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Blackjack" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Blackjack" type="462c0819:PsiDirectoryNode" />
-              <item name=".idea" type="462c0819:PsiDirectoryNode" />
-              <item name="libraries" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Blackjack" type="b2602c69:ProjectViewProjectNode" />
@@ -303,21 +204,6 @@
               <item name="Blackjack" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
               <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Blackjack" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Blackjack" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Blackjack" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Blackjack" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-4.2" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Blackjack" type="b2602c69:ProjectViewProjectNode" />
@@ -549,7 +435,7 @@
       <workItem from="1520001068544" duration="643000" />
       <workItem from="1520097970596" duration="3006000" />
       <workItem from="1520116637792" duration="23933000" />
-      <workItem from="1520179149968" duration="3399000" />
+      <workItem from="1520179149968" duration="15786000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <created>1520118792951</created>
@@ -572,14 +458,22 @@
       <option name="project" value="LOCAL" />
       <updated>1520178880481</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Javax libs problem solved">
+      <created>1520182584578</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1520182584578</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31069000" />
+    <option name="totallyTimeSpent" value="43456000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1920" height="1037" extended-state="6" />
+    <frame x="0" y="0" width="960" height="1037" extended-state="4" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -599,10 +493,10 @@
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32762313" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32762313" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15364583" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30729166" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -640,7 +534,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32762313" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.334375" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15364583" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32941177" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -657,7 +551,8 @@
     <MESSAGE value="Initial Commit" />
     <MESSAGE value="Model Classe and some implementation" />
     <MESSAGE value="Spring 4.2 libs added" />
-    <option name="LAST_COMMIT_MESSAGE" value="Spring 4.2 libs added" />
+    <MESSAGE value="Javax libs problem solved" />
+    <option name="LAST_COMMIT_MESSAGE" value="Javax libs problem solved" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -669,9 +564,7 @@
         <state relative-caret-position="645">
           <caret line="56" column="5" lean-forward="false" selection-start-line="56" selection-start-column="5" selection-end-line="56" selection-end-column="5" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1686#1687#0" expanded="true" />
-            <element signature="e#1752#1753#0" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -691,7 +584,7 @@
         <state relative-caret-position="210">
           <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -741,9 +634,7 @@
         <state relative-caret-position="240">
           <caret line="18" column="22" lean-forward="false" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1686#1687#0" expanded="true" />
-            <element signature="e#1752#1753#0" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -777,9 +668,7 @@
         <state relative-caret-position="300">
           <caret line="22" column="21" lean-forward="false" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1686#1687#0" expanded="true" />
-            <element signature="e#1752#1753#0" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -910,105 +799,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/data/model/Card.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding>
-            <element signature="e#141#142#0" expanded="false" />
-            <element signature="e#168#169#0" expanded="false" />
-            <element signature="e#205#206#0" expanded="false" />
-            <element signature="e#237#238#0" expanded="false" />
-            <element signature="e#269#270#0" expanded="false" />
-            <element signature="e#299#300#0" expanded="false" />
-            <element signature="e#343#344#0" expanded="false" />
-            <element signature="e#381#382#0" expanded="false" />
-            <element signature="e#410#411#0" expanded="false" />
-            <element signature="e#438#439#0" expanded="false" />
-            <element signature="e#477#478#0" expanded="false" />
-            <element signature="e#511#512#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/data/model/PlayerInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#237#238#0" expanded="false" />
-            <element signature="e#268#269#0" expanded="false" />
-            <element signature="e#316#317#0" expanded="false" />
-            <element signature="e#356#357#0" expanded="false" />
-            <element signature="e#394#395#0" expanded="false" />
-            <element signature="e#422#423#0" expanded="false" />
-            <element signature="e#470#471#0" expanded="false" />
-            <element signature="e#504#505#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/data/model/Room.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="27" lean-forward="false" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
-          <folding>
-            <element signature="e#228#229#0" expanded="false" />
-            <element signature="e#259#260#0" expanded="false" />
-            <element signature="e#307#308#0" expanded="false" />
-            <element signature="e#347#348#0" expanded="false" />
-            <element signature="e#384#385#0" expanded="false" />
-            <element signature="e#420#421#0" expanded="false" />
-            <element signature="e#475#476#0" expanded="false" />
-            <element signature="e#525#526#0" expanded="false" />
-            <element signature="e#560#561#0" expanded="false" />
-            <element signature="e#588#589#0" expanded="false" />
-            <element signature="e#633#634#0" expanded="false" />
-            <element signature="e#667#668#0" expanded="false" />
-            <element signature="e#700#701#0" expanded="false" />
-            <element signature="e#727#728#0" expanded="false" />
-            <element signature="e#769#770#0" expanded="false" />
-            <element signature="e#801#802#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/data/model/GameInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="36" column="48" lean-forward="false" selection-start-line="36" selection-start-column="48" selection-end-line="36" selection-end-column="48" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#284#285#0" expanded="false" />
-            <element signature="e#318#319#0" expanded="false" />
-            <element signature="e#369#370#0" expanded="false" />
-            <element signature="e#415#416#0" expanded="false" />
-            <element signature="e#450#451#0" expanded="false" />
-            <element signature="e#478#479#0" expanded="false" />
-            <element signature="e#523#524#0" expanded="false" />
-            <element signature="e#557#558#0" expanded="false" />
-            <element signature="e#604#605#0" expanded="false" />
-            <element signature="e#641#642#0" expanded="false" />
-            <element signature="e#707#708#0" expanded="false" />
-            <element signature="e#759#760#0" expanded="false" />
-            <element signature="e#843#844#0" expanded="false" />
-            <element signature="e#909#910#0" expanded="false" />
-            <element signature="e#955#956#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/data/VirtualStorage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.idea/modules.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1049,10 +839,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/dispatcher-servlet.xml">
+    <entry file="file://$PROJECT_DIR$/.idea/artifacts/Blackjack_war_exploded.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="70" lean-forward="false" selection-start-line="22" selection-start-column="70" selection-end-line="22" selection-end-column="70" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1065,40 +855,99 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/controllers/LobbyHandler.java">
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/dispatcher-servlet.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" column="29" lean-forward="false" selection-start-line="26" selection-start-column="29" selection-end-line="26" selection-end-column="29" />
+        <state relative-caret-position="330">
+          <caret line="22" column="57" lean-forward="false" selection-start-line="22" selection-start-column="57" selection-end-line="22" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/data/model/PlayerInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="11" column="4" lean-forward="false" selection-start-line="11" selection-start-column="4" selection-end-line="16" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/data/model/GameInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="18" column="12" lean-forward="false" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/data/model/Room.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="30" column="30" lean-forward="false" selection-start-line="30" selection-start-column="30" selection-end-line="30" selection-end-column="30" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#1346#1347#0" expanded="false" />
+            <element signature="e#1378#1379#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/data/model/Card.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="25" column="49" lean-forward="false" selection-start-line="25" selection-start-column="49" selection-end-line="25" selection-end-column="49" />
+          <folding>
+            <element signature="e#1279#1280#0" expanded="false" />
+            <element signature="e#1320#1321#0" expanded="false" />
+            <element signature="e#1827#1828#0" expanded="false" />
+            <element signature="e#1854#1855#0" expanded="false" />
+            <element signature="e#1891#1892#0" expanded="false" />
+            <element signature="e#1923#1924#0" expanded="false" />
+            <element signature="e#1957#1958#0" expanded="false" />
+            <element signature="e#1987#1988#0" expanded="false" />
+            <element signature="e#2033#2034#0" expanded="false" />
+            <element signature="e#2071#2072#0" expanded="false" />
+            <element signature="e#2100#2101#0" expanded="false" />
+            <element signature="e#2128#2129#0" expanded="false" />
+            <element signature="e#2167#2168#0" expanded="false" />
+            <element signature="e#2201#2202#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/data/VirtualStorage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="248">
+          <caret line="26" column="25" lean-forward="false" selection-start-line="26" selection-start-column="25" selection-end-line="26" selection-end-column="25" />
+          <folding>
+            <element signature="e#504#505#0" expanded="true" />
+            <element signature="e#559#560#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/controllers/SessionManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+        <state relative-caret-position="305">
+          <caret line="23" column="53" lean-forward="false" selection-start-line="23" selection-start-column="53" selection-end-line="23" selection-end-column="53" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1686#1687#0" expanded="true" />
-            <element signature="e#1752#1753#0" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/artifacts/Blackjack_war_exploded.xml">
+    <entry file="file://$PROJECT_DIR$/src/controllers/LobbyHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="435">
+          <caret line="29" column="46" lean-forward="false" selection-start-line="29" selection-start-column="46" selection-end-line="29" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/WEB-INF/views/lobby.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="579">
-          <caret line="59" column="0" lean-forward="false" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
+        <state relative-caret-position="306">
+          <caret line="42" column="35" lean-forward="false" selection-start-line="42" selection-start-column="35" selection-end-line="42" selection-end-column="35" />
           <folding />
         </state>
       </provider>

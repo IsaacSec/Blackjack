@@ -9,6 +9,28 @@ public class Room {
     private RoomState state;
     private GameInfo game;
 
+    private static String JSON_FORMAT =
+            "{" +
+                "\"%s\":\"%s\"," +
+                "\"%s\":%s," +
+                "\"%s\":\"%s\"," +
+                "\"%s\":%s" +
+            "}";
+
+    private static String BASIC_JSON_FORMAT =
+            "{" +
+                    "\"%s\":\"%s\"," +
+                    "\"%s\":%s," +
+                    "\"%s\":\"%s\""+
+                    "}";
+
+    public Room(String roomName) {
+        this.roomName = roomName;
+        playerCounter = 0;
+        state = RoomState.WAITING;
+        game = new GameInfo();
+    }
+
     public String getRoomName() {
         return roomName;
     }
@@ -39,5 +61,31 @@ public class Room {
 
     public void setGame(GameInfo game) {
         this.game = game;
+    }
+
+    public String toBasicJSON(){
+
+        String json = ""+BASIC_JSON_FORMAT;
+
+        return String.format(
+                json,
+                "roomName", roomName,
+                "playerCounter", playerCounter,
+                "state", state
+        );
+
+    }
+
+    public String toJSON(){
+
+        String json = ""+JSON_FORMAT;
+
+        return String.format(
+            json,
+            "roomName", roomName,
+            "playerCounter", playerCounter,
+            "state", state,
+            "game",game.toJSON()
+        );
     }
 }
