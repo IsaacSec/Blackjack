@@ -94,7 +94,7 @@
     <button onclick="createRoom()">Create</button>
     <br>
     <form action="/signOut" method="POST">
-        <button type="submit">Enter</button>
+        <button type="submit">Exit</button>
     </form>
     <br>
     <br>

@@ -7,14 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c15542f9-55e3-4541-986c-ff698a8341ec" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Blackjack_war_exploded/WEB-INF/classes/controllers/SessionManager.class" afterPath="$PROJECT_DIR$/out/artifacts/Blackjack_war_exploded/WEB-INF/classes/controllers/SessionManager.class" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Blackjack_war_exploded/WEB-INF/classes/data/VirtualStorage.class" afterPath="$PROJECT_DIR$/out/artifacts/Blackjack_war_exploded/WEB-INF/classes/data/VirtualStorage.class" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Blackjack_war_exploded/WEB-INF/views/lobby.jsp" afterPath="$PROJECT_DIR$/out/artifacts/Blackjack_war_exploded/WEB-INF/views/lobby.jsp" />
-      <change beforePath="$PROJECT_DIR$/out/production/Blackjack/controllers/SessionManager.class" afterPath="$PROJECT_DIR$/out/production/Blackjack/controllers/SessionManager.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/Blackjack/data/VirtualStorage.class" afterPath="$PROJECT_DIR$/out/production/Blackjack/data/VirtualStorage.class" />
-      <change beforePath="$PROJECT_DIR$/src/controllers/SessionManager.java" afterPath="$PROJECT_DIR$/src/controllers/SessionManager.java" />
       <change beforePath="$PROJECT_DIR$/src/data/VirtualStorage.java" afterPath="$PROJECT_DIR$/src/data/VirtualStorage.java" />
       <change beforePath="$PROJECT_DIR$/web/WEB-INF/views/lobby.jsp" afterPath="$PROJECT_DIR$/web/WEB-INF/views/lobby.jsp" />
     </list>
@@ -28,11 +21,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="SessionManager.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="SessionManager.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/controllers/SessionManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="467">
-              <caret line="75" column="36" lean-forward="false" selection-start-line="75" selection-start-column="36" selection-end-line="75" selection-end-column="36" />
+            <state relative-caret-position="192">
+              <caret line="59" column="0" lean-forward="false" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
               <folding>
                 <element signature="e#1923#1924#0" expanded="true" />
                 <element signature="e#1981#1982#0" expanded="true" />
@@ -41,18 +34,16 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="VirtualStorage.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="VirtualStorage.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/data/VirtualStorage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-45">
-              <caret line="10" column="55" lean-forward="false" selection-start-line="10" selection-start-column="55" selection-end-line="10" selection-end-column="55" />
+            <state relative-caret-position="345">
+              <caret line="27" column="5" lean-forward="false" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
               <folding>
-                <element signature="e#600#601#0" expanded="true" />
-                <element signature="e#638#639#0" expanded="true" />
-                <element signature="e#691#692#0" expanded="true" />
-                <element signature="e#746#747#0" expanded="true" />
-                <element signature="e#796#797#0" expanded="true" />
-                <element signature="e#841#842#0" expanded="true" />
+                <element signature="e#824#825#0" expanded="true" />
+                <element signature="e#879#880#0" expanded="true" />
+                <element signature="e#929#930#0" expanded="true" />
+                <element signature="e#974#975#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -73,8 +64,8 @@
       <file leaf-file-name="lobby.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/WEB-INF/views/lobby.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="426">
-              <caret line="95" column="26" lean-forward="false" selection-start-line="95" selection-start-column="26" selection-end-line="95" selection-end-column="26" />
+            <state relative-caret-position="441">
+              <caret line="96" column="34" lean-forward="false" selection-start-line="96" selection-start-column="34" selection-end-line="96" selection-end-column="34" />
               <folding />
             </state>
           </provider>
@@ -134,9 +125,9 @@
         <option value="$PROJECT_DIR$/src/data/model/Card.java" />
         <option value="$PROJECT_DIR$/src/data/model/GameInfo.java" />
         <option value="$PROJECT_DIR$/src/controllers/LobbyHandler.java" />
+        <option value="$PROJECT_DIR$/src/controllers/SessionManager.java" />
         <option value="$PROJECT_DIR$/web/WEB-INF/views/lobby.jsp" />
         <option value="$PROJECT_DIR$/src/data/VirtualStorage.java" />
-        <option value="$PROJECT_DIR$/src/controllers/SessionManager.java" />
       </list>
     </option>
   </component>
@@ -440,7 +431,7 @@
       <workItem from="1520001068544" duration="643000" />
       <workItem from="1520097970596" duration="3006000" />
       <workItem from="1520116637792" duration="23933000" />
-      <workItem from="1520179149968" duration="17361000" />
+      <workItem from="1520179149968" duration="17887000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <created>1520118792951</created>
@@ -484,11 +475,18 @@
       <option name="project" value="LOCAL" />
       <updated>1520197159111</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Token generation fixed">
+      <created>1520198289965</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1520198289965</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45031000" />
+    <option name="totallyTimeSpent" value="45557000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="960" height="1037" extended-state="4" />
@@ -573,7 +571,8 @@
     <MESSAGE value="Javax libs problem solved" />
     <MESSAGE value="Create Room in Lobby" />
     <MESSAGE value="VirtualStorage encapsulation" />
-    <option name="LAST_COMMIT_MESSAGE" value="VirtualStorage encapsulation" />
+    <MESSAGE value="Token generation fixed" />
+    <option name="LAST_COMMIT_MESSAGE" value="Token generation fixed" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -937,6 +936,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/views/lobby.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="441">
+          <caret line="96" column="34" lean-forward="false" selection-start-line="96" selection-start-column="34" selection-end-line="96" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/controllers/LobbyHandler.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="218">
@@ -947,36 +954,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/views/lobby.jsp">
+    <entry file="file://$PROJECT_DIR$/src/controllers/SessionManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="426">
-          <caret line="95" column="26" lean-forward="false" selection-start-line="95" selection-start-column="26" selection-end-line="95" selection-end-column="26" />
-          <folding />
+        <state relative-caret-position="192">
+          <caret line="59" column="0" lean-forward="false" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
+          <folding>
+            <element signature="e#1923#1924#0" expanded="true" />
+            <element signature="e#1981#1982#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/data/VirtualStorage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-45">
-          <caret line="10" column="55" lean-forward="false" selection-start-line="10" selection-start-column="55" selection-end-line="10" selection-end-column="55" />
+        <state relative-caret-position="345">
+          <caret line="27" column="5" lean-forward="false" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
           <folding>
-            <element signature="e#600#601#0" expanded="true" />
-            <element signature="e#638#639#0" expanded="true" />
-            <element signature="e#691#692#0" expanded="true" />
-            <element signature="e#746#747#0" expanded="true" />
-            <element signature="e#796#797#0" expanded="true" />
-            <element signature="e#841#842#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/controllers/SessionManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="467">
-          <caret line="75" column="36" lean-forward="false" selection-start-line="75" selection-start-column="36" selection-end-line="75" selection-end-column="36" />
-          <folding>
-            <element signature="e#1923#1924#0" expanded="true" />
-            <element signature="e#1981#1982#0" expanded="true" />
+            <element signature="e#824#825#0" expanded="true" />
+            <element signature="e#879#880#0" expanded="true" />
+            <element signature="e#929#930#0" expanded="true" />
+            <element signature="e#974#975#0" expanded="true" />
           </folding>
         </state>
       </provider>
