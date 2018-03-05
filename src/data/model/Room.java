@@ -63,6 +63,11 @@ public class Room {
         this.game = game;
     }
 
+    public void addPlayer(String nickname){
+        playerCounter++;
+        game.addPlayerInfo(nickname);
+    }
+
     public String toBasicJSON(){
 
         String json = ""+BASIC_JSON_FORMAT;

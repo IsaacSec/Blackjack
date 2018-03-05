@@ -16,6 +16,12 @@ public class PlayerInfo {
                 "\"%s\":[%s]" +
             "}";
 
+    public PlayerInfo(String nickname) {
+        this.nickname = nickname;
+        state = PlayerState.WAITING;
+        cards = new Vector<>();
+    }
+
     public String getNickname() {
         return nickname;
     }

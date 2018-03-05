@@ -1,4 +1,4 @@
-<%--
+<%@ page import="data.model.User" %><%--
   Created by IntelliJ IDEA.
   User: isaac
   Date: 3/4/18
@@ -10,7 +10,22 @@
 <head>
     <title>Game Playground</title>
 </head>
-<body>
 
+<%
+    User user = (User) session.getAttribute("user");
+    
+%>
+
+<body>
+    Room: <%=user.getRoomName()%>
+    <br>
+    <br>
+    <button id="hit" onclick="">Hit</button>
+    <button id="stand" onclick="">Stand</button>
+    <br>
+    <form action="/exitRoom" method="POST">
+        <input type="text" name="nickname" hidden value="<%=user.getNickname()%>">
+        <button type="submit">Exit</button>
+    </form>
 </body>
 </html>

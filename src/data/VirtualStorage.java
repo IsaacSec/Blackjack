@@ -35,6 +35,14 @@ public class VirtualStorage {
         return users.containsKey(key);
     }
 
+    public static void addPlayerToRoom(String roomName, String nickname){
+        User user = users.get(nickname);
+        Room room = rooms.get(roomName);
+
+        user.setRoomName(roomName);
+        room.addPlayer(nickname);
+    }
+
     public static String allRoomsToJSON(){
         String json = ""+ROOMS_JSON_FORMAT;
         String roomsJson = "";
@@ -49,5 +57,9 @@ public class VirtualStorage {
             json,
             "rooms",roomsJson
         );
+    }
+
+    public static Room getRoom(String roomName){
+        return rooms.get(roomName);
     }
 }

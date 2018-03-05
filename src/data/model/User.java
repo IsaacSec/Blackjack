@@ -4,12 +4,12 @@ public class User {
 
     private String nickname;
     private String token;
-    private String roomId;
+    private String roomName;
 
-    public User(String userId, String token, String roomId) {
+    public User(String userId, String token, String roomName) {
         this.nickname = userId;
         this.token = token;
-        this.roomId = roomId;
+        this.roomName = roomName;
     }
 
     public String getNickname() {
@@ -28,12 +28,12 @@ public class User {
         this.token = token;
     }
 
-    public String getRoomId() {
-        return roomId;
+    public String getRoomName() {
+        return roomName;
     }
 
-    public void setRoomId(String roomId) {
-        this.roomId = roomId;
+    public void setRoomName(String roomName) {
+        this.roomName = roomName;
     }
 
     @Override
@@ -41,7 +41,7 @@ public class User {
         return "User{" +
                 "nickname='" + nickname + '\'' +
                 ", token='" + token + '\'' +
-                ", roomId='" + roomId + '\'' +
+                ", roomName='" + roomName + '\'' +
                 '}';
     }
 }

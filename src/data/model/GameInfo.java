@@ -57,6 +57,11 @@ public class GameInfo {
         this.playersInfo = playersInfo;
     }
 
+    public void addPlayerInfo(String nickname){
+        PlayerInfo player = new PlayerInfo(nickname);
+        playersInfo.add(player);
+    }
+
     private String getJsonFromCards(){
         String jsonCards = "";
 
