@@ -24,7 +24,7 @@
     <button id="stand" onclick="">Stand</button>
     <br>
     <form action="/exitRoom" method="POST">
-        <input type="text" name="nickname" hidden value="<%=user.getNickname()%>">
+        <input type="text" name="roomName" hidden value="<%=user.getRoomName()%>">
         <button type="submit">Exit</button>
     </form>
 </body>

@@ -14,17 +14,30 @@ import javax.servlet.http.HttpSession;
 public class GameManager {
 
     @RequestMapping("/join")
-    public ModelAndView enterToLobby(@RequestParam("roomName") String roomName,
+    public ModelAndView enterToRoom(@RequestParam("roomName") String roomName,
                                      HttpSession session){
 
-        Room room = VirtualStorage.getRoom(roomName);
         User user = (User) session.getAttribute("user");
-        user.setRoomName(roomName);
-        room.addPlayer(user.getNickname());
+        VirtualStorage.addPlayerToRoom(roomName, user.getNickname());
 
         //Check game status
 
         ModelAndView mav = new ModelAndView("game");
+        return mav;
+    }
+
+    @RequestMapping("/exitRoom")
+    public ModelAndView exitFromRoom(@RequestParam("roomName") String roomName,
+                                     HttpSession session){
+
+        User user = (User) session.getAttribute("user");
+        user.setRoomName(null);
+
+        VirtualStorage.removePlayerFromRoom(roomName, user.getNickname());
+
+        //Check game status
+
+        ModelAndView mav = new ModelAndView("lobby");
         return mav;
     }
 

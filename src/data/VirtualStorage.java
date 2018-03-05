@@ -43,6 +43,14 @@ public class VirtualStorage {
         room.addPlayer(nickname);
     }
 
+    public static void removePlayerFromRoom(String roomName, String nickname){
+        User user = users.get(nickname);
+        Room room = rooms.get(roomName);
+
+        user.setRoomName(null);
+        room.removePlayer(nickname);
+    }
+
     public static String allRoomsToJSON(){
         String json = ""+ROOMS_JSON_FORMAT;
         String roomsJson = "";

@@ -54,8 +54,8 @@
                         "<td>"+ rooms[i].roomName +"</td>" +
                         "<td>"+ rooms[i].playerCounter +"</td>" +
                         "<td>" +
-                            "<form action="+joinUrl+" method=\"POST\">\n" +
-                                "<button type=\"submit\">Join</button>\n" +
+                            "<form action="+joinUrl+" method=\"POST\">" +
+                                "<button type=\"submit\">Join</button>" +
                             "</form>" +
                         "</td>" +
                     "</tr> " ;
@@ -86,7 +86,7 @@
         }
         
         load();
-        window.setInterval(load, 10000);
+        window.setInterval(load, 1000);
     
     </script>
 

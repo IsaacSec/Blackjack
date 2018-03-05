@@ -62,6 +62,15 @@ public class GameInfo {
         playersInfo.add(player);
     }
 
+    public void removePlayerInfo(String nickname){
+        for (PlayerInfo p : playersInfo) {
+            if (p.getNickname().equals(nickname)){
+                playersInfo.remove(p);
+                break;
+            }
+        }
+    }
+
     private String getJsonFromCards(){
         String jsonCards = "";
 

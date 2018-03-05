@@ -68,6 +68,11 @@ public class Room {
         game.addPlayerInfo(nickname);
     }
 
+    public void removePlayer(String nickname){
+        playerCounter--;
+        game.removePlayerInfo(nickname);
+    }
+
     public String toBasicJSON(){
 
         String json = ""+BASIC_JSON_FORMAT;
