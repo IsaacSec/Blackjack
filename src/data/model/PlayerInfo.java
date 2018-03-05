@@ -38,11 +38,23 @@ public class PlayerInfo {
         this.cards = cards;
     }
 
+    public int sumOfCards(){
+        int sum = 0;
+        for (Card card : cards) {
+            sum += card.getValue();
+        }
+
+        return sum;
+    }
+
     private String getJsonFromCards(){
         String jsonCards = "";
 
-        for (Card card : cards) {
-            jsonCards += card.toJSON();
+        for (int i = 0; i < cards.size(); i++) {
+            jsonCards += cards.get(i).toJSON();
+            if (i != cards.size()-1) {
+                jsonCards += ",";
+            }
         }
 
         return jsonCards;
@@ -57,5 +69,14 @@ public class PlayerInfo {
                 "state", state,
                 "cards", getJsonFromCards()
             );
+    }
+
+    @Override
+    public String toString() {
+        return "PlayerInfo{" +
+                "nickname='" + nickname + '\'' +
+                ", state=" + state +
+                ", cards=" + cards +
+                '}';
     }
 }

@@ -71,11 +71,30 @@ public class GameInfo {
         }
     }
 
+    public void giveCardToPlayer(String nickname){
+        for (PlayerInfo player : playersInfo) {
+
+            if (nickname.equals(player.getNickname())){
+
+                Card card = takeRandomCard();
+                player.getCards().add(card);
+            }
+        }
+    }
+
+    private Card takeRandomCard(){
+        int randomInt = (int) (Math.random()*availableCards.size());
+        return availableCards.remove(randomInt);
+    }
+
     private String getJsonFromCards(){
         String jsonCards = "";
 
-        for (Card card : availableCards) {
-            jsonCards += card.toJSON();
+        for (int i = 0; i < availableCards.size(); i++) {
+            jsonCards += availableCards.get(i).toJSON();
+            if (i != availableCards.size()-1) {
+                jsonCards += ",";
+            }
         }
 
         return jsonCards;
@@ -102,5 +121,15 @@ public class GameInfo {
             "availableCards", getJsonFromCards(),
             "playersInfo", getJsonFromPlayers()
         );
+    }
+
+    @Override
+    public String toString() {
+        return "GameInfo{" +
+                "currentTurn=" + currentTurn +
+                ", state=" + state +
+                ", availableCards=" + availableCards +
+                ", playersInfo=" + playersInfo +
+                '}';
     }
 }

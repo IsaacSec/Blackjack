@@ -98,4 +98,14 @@ public class Room {
             "game",game.toJSON()
         );
     }
+
+    @Override
+    public String toString() {
+        return "Room{" +
+                "roomName='" + roomName + '\'' +
+                ", playerCounter=" + playerCounter +
+                ", state=" + state +
+                ", game=" + game +
+                '}';
+    }
 }

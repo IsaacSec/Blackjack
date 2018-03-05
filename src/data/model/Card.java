@@ -43,7 +43,7 @@ public class Card {
         int number = code % 13;
 
         if (number < 9) {
-            value = code+1;
+            value = number+1;
         } else {
             value = 10;
         }
@@ -83,5 +83,14 @@ public class Card {
             "unicode", unicode,
             "value", value
         );
+    }
+
+    @Override
+    public String toString() {
+        return "Card{" +
+                "code=" + code +
+                ", unicode='" + unicode + '\'' +
+                ", value=" + value +
+                '}';
     }
 }

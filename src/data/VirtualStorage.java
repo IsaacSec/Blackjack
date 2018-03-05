@@ -1,20 +1,25 @@
 package data;
 
-import data.model.Room;
-import data.model.User;
+import data.model.*;
 
 import java.util.Enumeration;
 import java.util.Hashtable;
+import java.util.Vector;
 
 public class VirtualStorage {
 
     private static Hashtable <String,User> users = new Hashtable<>();
     private static Hashtable <String,Room> rooms = new Hashtable<>();
 
-    public static String ROOMS_JSON_FORMAT =
+    private static String ROOMS_JSON_FORMAT =
         "{" +
             "\"%s\":[%s]" +
         "}";
+
+    private static String GAME_JSON_FORMAT =
+            "{" +
+                "\"%s\":%s" +
+            "}";
 
     public static void addNewUser(User user){
         users.put(user.getNickname(), user);
@@ -65,6 +70,39 @@ public class VirtualStorage {
             json,
             "rooms",roomsJson
         );
+    }
+
+    public static String gameToJSON(String roomName){
+        String json = ""+GAME_JSON_FORMAT;
+        GameInfo game = getRoom(roomName).getGame();
+
+        return String.format(
+                json,
+                "game", game.toJSON()
+        );
+    }
+
+
+    public static boolean hitSuccess(String roomName, String nickname){
+        Room room = rooms.get(roomName);
+        GameInfo game = room.getGame();
+
+        int currentTurn = game.getCurrentTurn();
+        PlayerInfo player = game.getPlayersInfo().get(currentTurn);
+
+        if (player.getNickname().equals(nickname)){
+            room.getGame().giveCardToPlayer(nickname);
+            return true;
+        } else {
+            return false;
+        }
+
+    }
+
+    public static void nextTurn(String roomName){
+        Room room = rooms.get(roomName);
+        GameInfo game = room.getGame();
+
     }
 
     public static Room getRoom(String roomName){
