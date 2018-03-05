@@ -1,5 +1,6 @@
 package data.model;
 
+import data.model.states.PlayerState;
 import data.model.states.RoomState;
 
 public class Room {
@@ -64,8 +65,9 @@ public class Room {
     }
 
     public void addPlayer(String nickname){
+        PlayerState state = PlayerState.READY;
+        game.addPlayerInfo(nickname,state);
         playerCounter++;
-        game.addPlayerInfo(nickname);
     }
 
     public void removePlayer(String nickname){

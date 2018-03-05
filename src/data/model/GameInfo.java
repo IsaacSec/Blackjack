@@ -1,6 +1,8 @@
 package data.model;
 
 import data.model.states.GameState;
+import data.model.states.PlayerState;
+
 import java.util.Vector;
 
 public class GameInfo {
@@ -57,8 +59,9 @@ public class GameInfo {
         this.playersInfo = playersInfo;
     }
 
-    public void addPlayerInfo(String nickname){
+    public void addPlayerInfo(String nickname, PlayerState state){
         PlayerInfo player = new PlayerInfo(nickname);
+        player.setState(state);
         playersInfo.add(player);
     }
 
@@ -87,6 +90,10 @@ public class GameInfo {
         return availableCards.remove(randomInt);
     }
 
+    public void nextTurn(){
+        currentTurn = (currentTurn + 1) % playersInfo.size();
+    }
+
     private String getJsonFromCards(){
         String jsonCards = "";
 
@@ -103,8 +110,11 @@ public class GameInfo {
     private String getJsonFromPlayers(){
         String jsonPlayers = "";
 
-        for (PlayerInfo player : playersInfo) {
-            jsonPlayers += player.toJSON();
+        for (int i = 0; i < playersInfo.size(); i++) {
+            jsonPlayers += playersInfo.get(i).toJSON();
+            if (i != playersInfo.size()-1) {
+                jsonPlayers += ",";
+            }
         }
 
         return jsonPlayers;

@@ -1,6 +1,7 @@
 package data;
 
 import data.model.*;
+import data.model.states.PlayerState;
 
 import java.util.Enumeration;
 import java.util.Hashtable;
@@ -99,10 +100,61 @@ public class VirtualStorage {
 
     }
 
+    public static int getHandValue(String roomName, String nickname){
+        User user = users.get(nickname);
+        Room room = rooms.get(roomName);
+
+        for (PlayerInfo player : room.getGame().getPlayersInfo()) {
+            if (player.getNickname().equals(nickname)) {
+                return player.sumOfCards();
+            }
+        }
+
+        return 0;
+    }
+
     public static void nextTurn(String roomName){
         Room room = rooms.get(roomName);
         GameInfo game = room.getGame();
 
+        PlayerInfo currentPlayer = game.getPlayersInfo().get(game.getCurrentTurn());
+
+        if (currentPlayer.getState() == PlayerState.ON_TURN) {
+            currentPlayer.setState(PlayerState.WAITING);
+        }
+
+        game.nextTurn();
+
+        PlayerInfo nextPlayer = game.getPlayersInfo().get(game.getCurrentTurn());
+
+        if (nextPlayer.getState() == PlayerState.WAITING) {
+            nextPlayer.setState(PlayerState.ON_TURN);
+        }
+
+    }
+
+    public static PlayerState getPlayerState(String roomName, String nickname){
+        Room room = rooms.get(roomName);
+
+        for (PlayerInfo player : room.getGame().getPlayersInfo()) {
+            if (player.getNickname().equals(nickname)) {
+                return player.getState();
+            }
+        }
+
+        return PlayerState.EXIT;
+    }
+
+    public static PlayerInfo getPlaterInfo(String roomName, String nickname){
+        Room room = rooms.get(roomName);
+
+        for (PlayerInfo player : room.getGame().getPlayersInfo()) {
+            if (player.getNickname().equals(nickname)) {
+                return player;
+            }
+        }
+
+        return null;
     }
 
     public static Room getRoom(String roomName){

@@ -1,7 +1,9 @@
 package controllers;
 
 import data.VirtualStorage;
+import data.model.PlayerInfo;
 import data.model.User;
+import data.model.states.PlayerState;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
@@ -46,9 +48,34 @@ public class GameManager {
     public String hit(@RequestParam("roomName") String roomName,
                                      HttpSession session){
 
+
         User user = (User) session.getAttribute("user");
+        PlayerState state = VirtualStorage.getPlayerState(roomName, user.getNickname());
+        PlayerInfo player = VirtualStorage.getPlaterInfo(roomName, user.getNickname());
+
+        switch (state){
+            case WAITING:
+                return "{\"message\":\"Dont be a cheater\"}";
+            case READY:
+                // Give two cards (This is the first)
+                VirtualStorage.hitSuccess(roomName, user.getNickname());
+                break;
+            case FINISHED:
+                VirtualStorage.nextTurn(roomName);
+                return "{\"message\":\"ok\"}";
+            default:
+                break;
+        }
 
         if (VirtualStorage.hitSuccess(roomName, user.getNickname())){
+
+            int handValue = VirtualStorage.getHandValue(roomName, user.getNickname());
+
+            if (handValue >= 21){
+
+                player.setState(PlayerState.FINISHED);
+                VirtualStorage.nextTurn(roomName);
+            }
             return "{\"message\":\"ok\"}";
         } else {
             return "{\"message\":\"Dont be a cheater\"}";

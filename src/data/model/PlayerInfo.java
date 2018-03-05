@@ -30,6 +30,14 @@ public class PlayerInfo {
         this.nickname = nickname;
     }
 
+    public PlayerState getState() {
+        return state;
+    }
+
+    public void setState(PlayerState state) {
+        this.state = state;
+    }
+
     public Vector<Card> getCards() {
         return cards;
     }
