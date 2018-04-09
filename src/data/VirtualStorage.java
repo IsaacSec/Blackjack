@@ -65,6 +65,9 @@ public class VirtualStorage {
         while (enumerator.hasMoreElements()){
             Room room = enumerator.nextElement();
             roomsJson += room.toBasicJSON();
+            if (enumerator.hasMoreElements()){
+                roomsJson += ",";
+            }
         }
 
         return String.format(

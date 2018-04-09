@@ -57,6 +57,20 @@
             xmlhttp.send();
         }
 
+        function stand() {
+            var xmlhttp = new XMLHttpRequest();
+            var url = "/stand?roomName=<%=user.getRoomName()%>";
+
+            xmlhttp.onreadystatechange = function () {
+                if (this.readyState == 4 && this.status == 200){
+                    load();
+                }
+            };
+
+            xmlhttp.open("POST",url,true);
+            xmlhttp.send();
+        }
+
         function showGameTable(xml) {
             console.log(xml.responseText);
             var jsonResponse = JSON.parse(xml.responseText);
@@ -95,6 +109,62 @@
             htmlTable += "</tbody></table></form>";
             document.getElementById("gameTable").innerHTML = htmlTable;
 
+            showWinner(players);
+
+        }
+
+        function showWinner(players) {
+
+            for (var i = 0; i < players.length; i++) {
+                if (players[i].state != "FINISHED"){
+                    return;
+                }
+            }
+
+            var winners = getWinner(players);
+            //if (winners != undefined && winners != [])
+                document.getElementById("winner").innerHTML = "The winner is: "+winners;
+        }
+
+        function getWinner(players){
+
+            var handValues = [];
+
+            for (var i = 0; i < players.length; i++) {
+                var playerCards = players[i].cards;
+                var handValue = 0;
+
+                for (var j = 0; j < playerCards.length; j++) {
+                    handValue += (playerCards[j].value/1);
+                }
+
+                handValues.push(handValue);
+            }
+
+            var winners = "";
+
+            for (var i=0; i<handValues.length; i++) {
+                if (handValues[i] == 21){
+                    winners += ""+players[i].nickname;
+                    return;
+                }
+            }
+
+            var max = 0;
+            var maxIndex = 0;
+
+            for (var i=0; i<handValues.length; i++) {
+                if (handValues[i] > max && handValues[i] < 22){
+                    max = handValues[i];
+                    maxIndex = i;
+                }
+            }
+
+            console.log(handValues);
+
+            winners += ""+players[maxIndex].nickname;
+            return winners;
+
         }
 
 
@@ -108,13 +178,17 @@
     <br>
     <br>
     <button id="hit" onclick="hit()">Hit</button>
-    <button id="stand" onclick="">Stand</button>
+    <button id="stand" onclick="stand()">Stand</button>
     <br>
     <form action="/exitRoom" method="POST">
         <input type="text" name="roomName" hidden value="<%=user.getRoomName()%>">
         <button type="submit">Exit</button>
     </form>
     <br>
+    <br>
+    <div id="winner">
+
+    </div>
     <br>
     <div id="gameTable">
 

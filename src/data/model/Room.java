@@ -1,5 +1,6 @@
 package data.model;
 
+import data.model.states.GameState;
 import data.model.states.PlayerState;
 import data.model.states.RoomState;
 
@@ -65,8 +66,21 @@ public class Room {
     }
 
     public void addPlayer(String nickname){
-        PlayerState state = PlayerState.READY;
+
+        PlayerState state;
+        if (playerCounter == 0) {
+            state = PlayerState.ON_TURN;
+        } else {
+            state = PlayerState.WAITING;
+        }
+
+        if (game.getState() == GameState.READY){
+            game.giveCardToPlayer(nickname);
+            game.giveCardToPlayer(nickname);
+        }
+
         game.addPlayerInfo(nickname,state);
+
         playerCounter++;
     }
 

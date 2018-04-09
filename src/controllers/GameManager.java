@@ -56,12 +56,8 @@ public class GameManager {
         switch (state){
             case WAITING:
                 return "{\"message\":\"Dont be a cheater\"}";
-            case READY:
-                // Give two cards (This is the first)
-                VirtualStorage.hitSuccess(roomName, user.getNickname());
-                break;
             case FINISHED:
-                VirtualStorage.nextTurn(roomName);
+                //VirtualStorage.nextTurn(roomName);
                 return "{\"message\":\"ok\"}";
             default:
                 break;
@@ -83,6 +79,32 @@ public class GameManager {
 
     }
 
+    @RequestMapping(value = "/stand", produces = "application/json")
+    @ResponseBody
+    public String stand(@RequestParam("roomName") String roomName,
+                      HttpSession session){
+
+
+        User user = (User) session.getAttribute("user");
+        PlayerState state = VirtualStorage.getPlayerState(roomName, user.getNickname());
+        PlayerInfo player = VirtualStorage.getPlaterInfo(roomName, user.getNickname());
+
+        switch (state){
+            case WAITING:
+                return "{\"message\":\"Dont be a cheater\"}";
+            case FINISHED:
+                return "{\"message\":\"ok\"}";
+            case ON_TURN:
+                player.setState(PlayerState.FINISHED);
+                VirtualStorage.nextTurn(roomName);
+                return "{\"message\":\"ok\"}";
+            default:
+                break;
+        }
+
+        return "{\"message\":\"ok\"}";
+    }
+
     @RequestMapping(value = "/getGameInfo", produces = "application/json")
     @ResponseBody
     public String getGameInfo(@RequestParam("roomName") String roomName){
@@ -93,4 +115,7 @@ public class GameManager {
         return VirtualStorage.gameToJSON(roomName);
     }
 
+    public static void checkGameState(){
+        
+    }
 }

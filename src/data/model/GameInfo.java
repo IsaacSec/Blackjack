@@ -91,7 +91,19 @@ public class GameInfo {
     }
 
     public void nextTurn(){
+        int counter = 0;
         currentTurn = (currentTurn + 1) % playersInfo.size();
+        PlayerInfo player = playersInfo.get(currentTurn);
+
+        while (player.getState() == PlayerState.FINISHED && state == GameState.READY ) {
+            counter++;
+            if (counter > playersInfo.size()){
+                state = GameState.ROUND_FINISHED;
+            }
+            currentTurn = (currentTurn + 1) % playersInfo.size();
+            player = playersInfo.get(currentTurn);
+        }
+
     }
 
     private String getJsonFromCards(){
