@@ -15,11 +15,22 @@
         Welcome to iSac Casino
         <br>
         <br>
-        Please introduce a nickname:
+        Please login with your nickname:
+        <br>
+        <form action="/logIn" method="POST">
+            Nickname: <input type="text" name="nickname"><br>
+            Password: <input type="text" name="password"><br>
+            <button type="submit">Log In</button>
+        </form>
+
+        <br>
+        Register an account:
         <br>
         <form action="/signIn" method="POST">
-            <input type="text" name="nickname">
-            <button type="submit">Enter</button>
+            Nickname: <input type="text" name="nickname"><br>
+            Password: <input type="text" name="password"><br>
+            Name: <input type="text" name="name"><br>
+            <button type="submit">Sign In</button>
         </form>
 
         <br>

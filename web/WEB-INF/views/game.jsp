@@ -76,7 +76,9 @@
             var jsonResponse = JSON.parse(xml.responseText);
             var players = jsonResponse['game'].playersInfo;
 
+
             var htmlTable =
+                "User: <b><%=user.getNickname()%></b><br><br>"+
                 "<table class='table' border='1'>" +
                 "<thead>" +
                 "<tr>" +

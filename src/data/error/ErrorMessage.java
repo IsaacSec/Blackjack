@@ -8,7 +8,8 @@ public class ErrorMessage {
             case DUPLICATED_NICK:
                 message = "Your nickname is already used";
                 break;
-
+            case INVALID_NICK:
+                message = "Your nickname or password are incorrect";
         }
 
         return message;

@@ -22,7 +22,8 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" exported="" name="Spring-4.2" level="project" />
     <orderEntry type="library" exported="" name="com.ibm.websphere.javaee" level="project" />
+    <orderEntry type="library" name="hibernate" level="project" />
+    <orderEntry type="library" name="spring-4.2" level="project" />
   </component>
 </module>
